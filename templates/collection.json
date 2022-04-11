@@ -25,10 +25,17 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "banner-end": {
+      "type": "main-collection-banner-end",
+      "settings": {
+        "show_collection_description": true
+      }
     }
   },
   "order": [
     "banner",
-    "product-grid"
+    "product-grid",
+    "banner-end"
   ]
 }
