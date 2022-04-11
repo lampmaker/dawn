@@ -116,11 +116,30 @@
         "padding_bottom": 36
       }
     },
-    "1649667555cc72aca7": {
-      "type": "custom-liquid",
+    "1649668238f20adca1": {
+      "type": "rich-text-MK",
+      "blocks": {
+        "1649668238aeae6373-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "REVIEWS VAN ONZE KLANTEN",
+            "heading_size": "h2"
+          }
+        },
+        "36542612-c6b3-43e8-b812-223500776566": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "{% if shop.locale == 'de' %}\n[WEBWINKELKEURWIDGET layout=new_default theme=light color=#ec008b show=yes view=list amount=6 width=auto width_amount=280px height=250px interval=5000 language=deu] \n{% else %}\n[WEBWINKELKEURWIDGET layout=new_default theme=light color=#ec008b show=yes view=list amount=6 width=auto width_amount=280px height=250px interval=5000 language=nld]\n{% endif %}"
+          }
+        }
+      },
+      "block_order": [
+        "1649668238aeae6373-0",
+        "36542612-c6b3-43e8-b812-223500776566"
+      ],
       "settings": {
-        "custom_liquid": "",
         "color_scheme": "background-2",
+        "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
       }
@@ -130,6 +149,6 @@
     "rich_text",
     "1649667235715cd7e9",
     "164966755293b90939",
-    "1649667555cc72aca7"
+    "1649668238f20adca1"
   ]
 }
