@@ -1,9 +1,9 @@
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#121212",
+    "colors_accent_1": "#0e5d3f",
     "gradient_accent_1": "",
-    "colors_accent_2": "#0c4b0a",
+    "colors_accent_2": "#975412",
     "gradient_accent_2": "",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
@@ -96,6 +96,9 @@
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
     "currency_code_enabled": true,
+    "checkout_logo_image": "shopify:\/\/shop_images\/kaboomlaser-transparent_465a720f-9d2f-42da-8224-dfc0661e06dc.png",
+    "checkout_accent_color": "#0e5d3f",
+    "checkout_button_color": "#0e5d3f",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -103,9 +106,9 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "Welcome to our store",
-              "color_scheme": "background-1",
-              "link": ""
+              "text": "✔ Duurzaame producten ✔ Beoordeeld met een 9.7 bij Webwinkelkeur✔ Met liefde en aandacht gemaakt in Nederland ✔ Snel verzonden ✔ Elke maand 5€ shoptegoed voor abonnees van onze nieuwsbrief",
+              "color_scheme": "accent-1",
+              "link": "shopify:\/\/pages\/krijg-elke-maand-5-shoptegoed"
             }
           }
         },
@@ -119,7 +122,8 @@
         "type": "header",
         "settings": {
           "color_scheme": "background-1",
-          "logo_width": 90,
+          "logo": "shopify:\/\/shop_images\/kaboomlaser-transparent_dd30b000-7a9a-4e3a-8cde-d4ab659550d6.png",
+          "logo_width": 240,
           "logo_position": "middle-left",
           "menu": "main-menu",
           "menu_type_desktop": "dropdown",
