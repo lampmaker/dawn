@@ -138,33 +138,41 @@
           "footer-0": {
             "type": "link_list",
             "settings": {
-              "heading": "Quick links",
+              "heading": "OVERZICHT",
               "menu": "footer"
             }
           },
           "footer-1": {
             "type": "link_list",
             "settings": {
-              "heading": "Info",
-              "menu": "footer"
+              "heading": "INFO",
+              "menu": "info"
             }
           },
-          "footer-2": {
-            "type": "text",
+          "f10bedef-a6bb-47f9-a864-23962e2c5511": {
+            "type": "html",
             "settings": {
-              "heading": "Our mission",
-              "subtext": "<p>Share contact information, store details, and brand content with your customers.<\/p>"
+              "heading": "VEILIG SHOPPEN",
+              "subtext": "<a href=\"https:\/\/www.webwinkelkeur.nl\/webshop\/Kaboomlaser_1209439\" class=\"webwinkelkeurPopup\" title=\"Webwinkel Keurmerk\" target=\"_blank\"><img src=\"https:\/\/dashboard.webwinkelkeur.nl\/banners\/6\/1209439\/1592818932.svg\" width=\"200\" height=\"300\" alt=\"Webwinkel Keurmerk\"><\/a>"
+            }
+          },
+          "e2ba07bc-6f33-485e-af9c-8781aeea23b0": {
+            "type": "html",
+            "settings": {
+              "heading": "PARTNERS",
+              "subtext": "<div>\n<a href=\"https:\/\/www.feelgoodmarket.nl\" target=\"_blank\"><img src=\"https:\/\/www.feelgoodmarket.nl\/wordpress\/wp-content\/uploads\/2013\/04\/FGM-Flyer-april-2013-website1.png\" width=\"200\" alt=\"Feelgood Market\"><\/a>\n<\/div><div><a href=\"https:\/\/www.lionshome.nl\"><img src=\"https:\/\/api.lionshome.de\/seal\/seal_round.png\" border=\"0\"><\/a><\/div><div><\/div>"
             }
           }
         },
         "block_order": [
           "footer-0",
           "footer-1",
-          "footer-2"
+          "f10bedef-a6bb-47f9-a864-23962e2c5511",
+          "e2ba07bc-6f33-485e-af9c-8781aeea23b0"
         ],
         "settings": {
           "color_scheme": "background-1",
-          "newsletter_enable": true,
+          "newsletter_enable": false,
           "newsletter_heading": "Subscribe to our emails",
           "show_social": true,
           "enable_country_selector": false,
