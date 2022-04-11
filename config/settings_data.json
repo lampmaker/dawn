@@ -95,6 +95,7 @@
     "predictive_search_enabled": true,
     "predictive_search_show_vendor": false,
     "predictive_search_show_price": false,
+    "favicon": "shopify:\/\/shop_images\/logo_2330x1000_33fb26ef-7e92-4034-b956-a555a4d6efa9.png",
     "currency_code_enabled": true,
     "checkout_logo_image": "shopify:\/\/shop_images\/kaboomlaser-transparent_465a720f-9d2f-42da-8224-dfc0661e06dc.png",
     "checkout_accent_color": "#0e5d3f",
