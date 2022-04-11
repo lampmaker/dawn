@@ -5,7 +5,41 @@
       "settings": {
         "show_vendor": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 20
+      }
+    },
+    "164967292859dacef4": {
+      "type": "newsletter",
+      "blocks": {
+        "164967292821688f61-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Wil je 5€ korting op deze bestelling?",
+            "heading_size": "h2"
+          }
+        },
+        "164967292821688f61-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Schrijf je dan in voor onze nieuwsbrief.  Nadat je de inschrijving hebt bevestigd, krijg je direct een kortingscode van 5€.   Abonnees krijgen bovendien elke maand een nieuwe code twv 5€! <br\/><em>(Minimum orderbedrag 30€)<\/em><\/p>"
+          }
+        },
+        "164967292821688f61-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "164967292821688f61-0",
+        "164967292821688f61-1",
+        "164967292821688f61-2"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 12,
+        "padding_bottom": 12
       }
     },
     "cart-footer": {
@@ -27,25 +61,73 @@
         "buttons"
       ],
       "settings": {
-        "show_cart_note": false
+        "show_cart_note": true
       }
     },
-    "featured-collection": {
+    "16496731065236c87c": {
+      "type": "rich-text-MK",
+      "blocks": {
+        "f7f3aaa6-a9e4-4269-ab64-5715ebcef1b7": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "{{ 'Kaboom_custom.verzendkosten_melding' | t }}"
+          }
+        }
+      },
+      "block_order": [
+        "f7f3aaa6-a9e4-4269-ab64-5715ebcef1b7"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 4,
+        "padding_bottom": 4
+      }
+    },
+    "164967292594c16862": {
+      "type": "rich-text-MK",
+      "disabled": true,
+      "blocks": {
+        "b4628ffa-d0dc-4694-b81f-49f9730487ec": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "<div class=\"rich-text color-background-2 gradient rich-text--full-width\" style=\"text-align:left;\">\n  <div style=\"text-align:left;\"><h2 class=\"h2\">{{'Kaboom_custom.over_kaboom1' | t }}<\/h2><\/div>\n<table class=\"table\" width=\"100%\">\n<tbody>\n<tr style=\"height: 9px; ;border: 0px;\" data-mce-style=\"height: 9px; ;border: 0px;\">\n<td style=\"width: 13.5618%; border: 0px;\" data-mce-style=\"width: 13.5618%; border: 0px;\"><svg viewbox=\"0 0 24 24\" height=\"24\" width=\"24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path d=\"M6.28 3c3.236.001 4.973 3.491 5.72 5.031.75-1.547 2.469-5.021 5.726-5.021 2.058 0 4.274 1.309 4.274 4.182 0 3.442-4.744 7.851-10 13-5.258-5.151-10-9.559-10-13 0-2.676 1.965-4.193 4.28-4.192zm.001-2c-3.183 0-6.281 2.187-6.281 6.192 0 4.661 5.57 9.427 12 15.808 6.43-6.381 12-11.147 12-15.808 0-4.011-3.097-6.182-6.274-6.182-2.204 0-4.446 1.042-5.726 3.238-1.285-2.206-3.522-3.248-5.719-3.248z\"><\/path><\/svg><\/td>\n<td style=\"width: 81.4382%; border: 0px;\" data-mce-style=\"width: 81.4382%; border: 0px;\">{{'Kaboom_custom.over_kaboom2' | t }}<\/td>\n<\/tr>\n<tr style=\"height: 9px; border: 0px;\" data-mce-style=\"height: 9px; border: 0px;\">\n<td style=\"width: 13.5618%; border: 0px;\" data-mce-style=\"width: 13.5618%; border: 0px;\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\"><path d=\"M21.406 9.558c-1.21-.051-2.87-.278-3.977-.744.809-3.283 1.253-8.814-2.196-8.814-1.861 0-2.351 1.668-2.833 3.329-1.548 5.336-3.946 6.816-6.4 7.401v-.73h-6v12h6v-.904c2.378.228 4.119.864 6.169 1.746 1.257.541 3.053 1.158 5.336 1.158 2.538 0 4.295-.997 5.009-3.686.5-1.877 1.486-7.25 1.486-8.25 0-1.648-1.168-2.446-2.594-2.506zm-17.406 10.442h-2v-8h2v8zm15.896-5.583s.201.01 1.069-.027c1.082-.046 1.051 1.469.004 1.563l-1.761.099c-.734.094-.656 1.203.141 1.172 0 0 .686-.017 1.143-.041 1.068-.056 1.016 1.429.04 1.551-.424.053-1.745.115-1.745.115-.811.072-.706 1.235.109 1.141l.771-.031c.822-.074 1.003.825-.292 1.661-1.567.881-4.685.131-6.416-.614-2.239-.965-4.438-1.934-6.959-2.006v-6c3.264-.749 6.328-2.254 8.321-9.113.898-3.092 1.679-1.931 1.679.574 0 2.071-.49 3.786-.921 5.533 1.061.543 3.371 1.402 6.12 1.556 1.055.059 1.024 1.455-.051 1.584l-1.394.167s-.608 1.111.142 1.116z\"><\/path><\/svg><\/td>\n<td style=\"width: 81.4382%; border: 0px;\" data-mce-style=\"width: 81.4382%; border: 0px;\">\n<span data-mce-fragment=\"1\">{{'Kaboom_custom.over_kaboom3' | t }}<\/span>\n<\/td>\n<\/tr>\n<tr style=\"height: 9px; ;border: 0px;\" data-mce-style=\"height: 9px; ;border: 0px;\">\n<td style=\"width: 13.5618%; border: 0px;\" data-mce-style=\"width: 13.5618%; border: 0px;\"><svg clip-rule=\"evenodd\" fill-rule=\"evenodd\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\" height=\"24\" width=\"24\"><path d=\"M15.996 24h-12.605s.734-3.931.633-5.686c-.041-.724-.161-1.474-.54-2.104-.645-1-2.636-3.72-2.475-7.43.224-5.209 4.693-8.779 10.126-8.779 5.098 0 8.507 3.001 9.858 7.483.328 1.079.311 1.541-.151 2.607l-.006.013 1.751 2.142c.26.381.413.791.413 1.239 0 .547-.233 1.045-.61 1.399-.368.345-.767.452-1.248.642 0 0-.576 2.592-.873 3.291-.7 1.643-1.97 1.659-2.97 1.849-.394.083-.49.133-.681.681-.208.591-.363 1.435-.622 2.653zm-4.842-22c-4.285.048-7.74 2.548-8.121 6.488-.192 1.991.463 3.986 1.516 5.705.611 1 1.305 1.592 1.464 3.875.091 1.313-.05 2.636-.241 3.932h8.604c.141-.645.35-1.485.687-2.057.449-.766 1.097-1.099 1.926-1.254.838-.148 1.238-.059 1.489-.785.212-.579.612-2.221.831-3.902 1.203-.335.612-.161 1.671-.559-.206-.234-1.918-2.314-2.045-2.6-.336-.759-.046-1.19.225-1.913.086-.251.06-.357-.009-.613-1.049-3.949-3.891-6.317-7.997-6.317zm.063 14h-.447c-.117 0-.231-.039-.308-.109l-.594-.391h2.25l-.594.391c-.076.069-.189.109-.307.109zm.922-1h-2.279c-.138 0-.25-.111-.25-.25 0-.138.112-.25.25-.25h2.279c.138 0 .25.112.25.25s-.111.25-.25.25zm-1.322-.986h-1.414c-.013-2.57-1.403-2.878-1.403-4.647 0-1.695 1.327-2.852 3-2.852h.02c1.663.009 2.98 1.163 2.98 2.852 0 1.769-1.391 2.077-1.404 4.647h-1.414c0-2.735 1.318-3.614 1.318-4.651 0-.856-.694-1.333-1.5-1.348h-.019c-.798.022-1.481.499-1.481 1.348 0 1.037 1.317 1.916 1.317 4.651zm4.053-3.628l1.349.612-.414.911-1.298-.589c.151-.3.276-.607.363-.934zm-7.739 0c.086.332.208.63.359.935l-1.296.588-.413-.911 1.35-.612zm9.369-.886h-1.501c.01-.335-.021-.672-.093-1h1.594v1zm-9.499 0h-1.501v-1h1.593c-.071.327-.101.663-.092.998v.002zm7.02-2.714l1.243-.881.579.815-1.252.889c-.147-.291-.336-.566-.57-.823zm-6.043 0c-.23.251-.418.525-.569.822l-1.251-.888.578-.815 1.242.881zm4.435-1.046l.663-1.345.896.442-.663 1.345c-.278-.183-.581-.332-.896-.442zm-2.826-.001c-.316.11-.618.258-.897.442l-.663-1.344.897-.442.663 1.344zm1.913-.208c-.334-.039-.654-.041-1-.002v-1.529h1v1.531z\"><\/path><\/svg><\/td>\n<td style=\"width: 81.4382%; border: 0px;\" data-mce-style=\"width: 81.4382%; border: 0px;\"><span>{{'Kaboom_custom.over_kaboom4' | t }}<\/span><\/td>\n<\/tr>\n<tr style=\"height: 9px; ;border: 0px;\" data-mce-style=\"height: 9px; ;border: 0px;\">\n<td style=\"width: 13.5618%; border: 0px;\" data-mce-style=\"width: 13.5618%; border: 0px;\"><svg viewbox=\"0 0 24 24\" height=\"24\" width=\"24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path d=\"M11 24h-9v-12h9v12zm0-18h-11v4h11v-4zm2 18h9v-12h-9v12zm0-18v4h11v-4h-11zm4.369-6c-2.947 0-4.671 3.477-5.369 5h5.345c3.493 0 3.53-5 .024-5zm-.796 3.621h-2.043c.739-1.121 1.439-1.966 2.342-1.966 1.172 0 1.228 1.966-.299 1.966zm-9.918 1.379h5.345c-.698-1.523-2.422-5-5.369-5-3.506 0-3.469 5 .024 5zm.473-3.345c.903 0 1.603.845 2.342 1.966h-2.043c-1.527 0-1.471-1.966-.299-1.966z\"><\/path><\/svg><\/td>\n<td style=\"width: 81.4382%; border: 0px;\" data-mce-style=\"width: 81.4382%; border: 0px;\"><span>{{'Kaboom_custom.over_kaboom5' | t }}<\/span><\/td>\n<\/tr>\n<tr style=\"height: 9px; ;border: 0px;\" data-mce-style=\"height: 9px; ;border: 0px;\">\n<td style=\"width: 13.5618%; border: 0px;\" data-mce-style=\"width: 13.5618%; border: 0px;\"><svg xmlns=\"http:\/\/www.w3.org\/2000\/svg\" width=\"24\" height=\"24\" viewbox=\"0 0 24 24\"><path d=\"M12 2c5.514 0 10 4.486 10 10s-4.486 10-10 10-10-4.486-10-10 4.486-10 10-10zm0-2c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm5.507 13.941c-1.512 1.195-3.174 1.931-5.506 1.931-2.334 0-3.996-.736-5.508-1.931l-.493.493c1.127 1.72 3.2 3.566 6.001 3.566 2.8 0 4.872-1.846 5.999-3.566l-.493-.493zm-9.007-5.941c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5zm7 0c-.828 0-1.5.671-1.5 1.5s.672 1.5 1.5 1.5 1.5-.671 1.5-1.5-.672-1.5-1.5-1.5z\"><\/path><\/svg><\/td>\n<td style=\"width: 81.4382%; border: 0px;\" data-mce-style=\"width: 81.4382%; border: 0px;\"><span>{{'Kaboom_custom.over_kaboom6' | t }}<\/span><\/td>\n<\/tr>\n<tr style=\"height: 9px; ;border: 0px;\" data-mce-style=\"height: 9px; ;border: 0px;\">\n<td style=\"width: 13.5618%; border: 0px;\" data-mce-style=\"width: 13.5618%; border: 0px;\"><svg viewbox=\"0 0 24 24\" height=\"24\" width=\"24\" xmlns=\"http:\/\/www.w3.org\/2000\/svg\"><path d=\"M12 6.76l1.379 4.246h4.465l-3.612 2.625 1.379 4.246-3.611-2.625-3.612 2.625 1.379-4.246-3.612-2.625h4.465l1.38-4.246zm0-6.472l-2.833 8.718h-9.167l7.416 5.389-2.833 8.718 7.417-5.388 7.416 5.388-2.833-8.718 7.417-5.389h-9.167l-2.833-8.718z\"><\/path><\/svg><\/td>\n<td style=\"width: 81.4382%; border: 0px;\" data-mce-style=\"width: 81.4382%; border: 0px;\">\n<span>{{'Kaboom_custom.over_kaboom7' | t }}<\/span>\n<\/td>\n<\/tr>\n<\/tbody>\n<\/table>\n<\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "b4628ffa-d0dc-4694-b81f-49f9730487ec"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 8,
+        "padding_bottom": 8
+      }
+    },
+    "164967340612a21527": {
       "type": "featured-collection",
       "settings": {
-        "title": "Featured collection",
+        "title": "HEB JE BINNEKORT NOG EEN CADEAUTJE NODIG?",
         "heading_size": "h2",
-        "collection": "all",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "uitgelicht",
         "products_to_show": 4,
         "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
         "color_scheme": "background-1",
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "square",
+        "image_ratio": "adapt",
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "enable_quick_add": false,
         "columns_mobile": "2",
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -53,7 +135,10 @@
   },
   "order": [
     "cart-items",
+    "164967292859dacef4",
     "cart-footer",
-    "featured-collection"
+    "16496731065236c87c",
+    "164967292594c16862",
+    "164967340612a21527"
   ]
 }
