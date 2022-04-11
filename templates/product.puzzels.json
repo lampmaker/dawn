@@ -5,6 +5,7 @@
       "blocks": {
         "vendor": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "{{ product.vendor }}",
             "text_style": "uppercase"
@@ -12,6 +13,11 @@
         },
         "title": {
           "type": "title",
+          "settings": {
+          }
+        },
+        "38689832-c1e8-448d-9534-cde1d91c2d4a": {
+          "type": "rating",
           "settings": {
           }
         },
@@ -109,6 +115,7 @@
       "block_order": [
         "vendor",
         "title",
+        "38689832-c1e8-448d-9534-cde1d91c2d4a",
         "caption",
         "price",
         "variant_picker",
