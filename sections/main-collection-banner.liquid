@@ -18,7 +18,9 @@
       </h1>
 
       {%- if section.settings.show_collection_description -%}
-        <div class="collection-hero__description rte">{{ collection.description }}</div>
+         {% assign descriptions=collection.description | split:'<!-- split -->'%}         
+      		
+	    	<div class="collection-hero__description rte">{{descriptions | first}}</div>
       {%- endif -%}
     </div>
 
