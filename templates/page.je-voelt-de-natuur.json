@@ -1,14 +1,196 @@
 {
   "sections": {
+    "1649759079c67dd56d": {
+      "type": "image-banner",
+      "blocks": {
+        "164975907948d5e418-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Image banner",
+            "heading_size": "h1"
+          }
+        },
+        "164975907948d5e418-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "Give customers details about the banner image(s) or content on the template.",
+            "text_style": "body"
+          }
+        },
+        "164975907948d5e418-2": {
+          "type": "buttons",
+          "disabled": true,
+          "settings": {
+            "button_label_1": "Button label",
+            "button_link_1": "",
+            "button_style_secondary_1": false,
+            "button_label_2": "Button label",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "164975907948d5e418-0",
+        "164975907948d5e418-1",
+        "164975907948d5e418-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/Voel_de_natuur_1600_x_800_px.png",
+        "image_overlay_opacity": 0,
+        "image_height": "medium",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
+    "1649759261eeb3baa1": {
+      "type": "rich-text",
+      "blocks": {
+        "16497592619c0f482b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "JE VOELT DE NATUUR",
+            "heading_size": "h1"
+          }
+        },
+        "16497592619c0f482b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Met de houten puzzels van Kaboomlaser heb je de natuur in handen. Prachtige puzzels met organische gevormde stukjes van blank berkenhout. Kwaliteitspuzzels, met liefde en aandacht gemaakt in Nederland.<\/p>"
+          }
+        },
+        "16497592619c0f482b-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16497592619c0f482b-0",
+        "16497592619c0f482b-1",
+        "16497592619c0f482b-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1649759094a8c18918": {
+      "type": "image-with-text",
+      "blocks": {
+        "16497590946905264d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "ENTROPY PUZZELS",
+            "heading_size": "h1"
+          }
+        },
+        "16497590946905264d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>De houten Entropy puzzels hebben prachtige, organisch gevormde stukjes. De makkelijkste puzzels kun je in een uur maken, voor de lastigste heb je een of twee avonden nodig. Erg leuk om in gezelschap te maken.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16497590946905264d-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Bekijk de collectie",
+            "button_link": "shopify:\/\/collections\/entropy-puzzels"
+          }
+        }
+      },
+      "block_order": [
+        "16497590946905264d-0",
+        "16497590946905264d-1",
+        "16497590946905264d-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/10_c7ef66b1-9a6a-4ff8-b4d2-5b21224a5bfd.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16497591277ec880cb": {
+      "type": "image-with-text",
+      "blocks": {
+        "16497591277c480a74-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CHAOS PUZZELS",
+            "heading_size": "h1"
+          }
+        },
+        "16497591277c480a74-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>De houten puzzels uit onze Chaos serie hebben fraai gevormde stukjes die lekker in de hand liggen. De moeilijkheid varieert van puzzels die je in een avond of twee kan leggen (zoals de ijsvogel), en puzzels waar je misschien wel weken bezig bent.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "16497591277c480a74-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Bekijk de Collectie",
+            "button_link": "shopify:\/\/collections\/chaos-puzzels"
+          }
+        }
+      },
+      "block_order": [
+        "16497591277c480a74-0",
+        "16497591277c480a74-1",
+        "16497591277c480a74-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/7_f610a075-b1b3-4506-9e79-2175e1914d48.png",
+        "height": "adapt",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "1649759079c67dd56d",
+    "1649759261eeb3baa1",
+    "main",
+    "1649759094a8c18918",
+    "16497591277ec880cb"
   ]
 }
