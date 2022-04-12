@@ -1,31 +1,24 @@
 {
   "sections": {
-    "main": {
-      "type": "main-page",
-      "disabled": true,
-      "settings": {
-        "padding_top": 28,
-        "padding_bottom": 28
-      }
-    },
-    "1649750371e290a105": {
+    "1649759597eabcbefb": {
       "type": "rich-text-MK",
       "blocks": {
-        "1649750371598c1352-0": {
+        "164975959773becfe7-0": {
           "type": "heading",
           "settings": {
-            "heading": "PUZZEL KIESHULP",
-            "heading_size": "h2"
+            "heading": "HOUTEN PUZZELS",
+            "heading_size": "h1"
           }
         },
-        "1649750371598c1352-1": {
+        "164975959773becfe7-1": {
           "type": "text",
           "settings": {
-            "text": "<p>HIer kun <\/p>"
+            "text": "<p>Onze puzzels zijn gemaakt van duurzaam, blank berkenhout. Bekijk de verschillende collecties hieronder.<\/p>"
           }
         },
-        "1649750371598c1352-2": {
+        "164975959773becfe7-2": {
           "type": "button",
+          "disabled": true,
           "settings": {
             "button_label": "Button label",
             "button_link": "",
@@ -34,9 +27,9 @@
         }
       },
       "block_order": [
-        "1649750371598c1352-0",
-        "1649750371598c1352-1",
-        "1649750371598c1352-2"
+        "164975959773becfe7-0",
+        "164975959773becfe7-1",
+        "164975959773becfe7-2"
       ],
       "settings": {
         "color_scheme": "background-1",
@@ -178,13 +171,20 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "padding_top": 28,
+        "padding_bottom": 28
+      }
     }
   },
   "order": [
-    "main",
-    "1649750371e290a105",
+    "1649759597eabcbefb",
     "16497501555b44abcc",
     "1649750171384b8482",
-    "16497502659b55b96f"
+    "16497502659b55b96f",
+    "main"
   ]
 }
