@@ -77,7 +77,7 @@
       {%- when 'video' -%}
         {{ media | media_tag: image_size: "2048x", autoplay: true, loop: loop, controls: true, preload: "none" }}
       {%- when 'model' -%}
-        {{ media | media_tag: image_size: "2048x", toggleable: true, ar-placement:"wall"}}
+        {{ media | media_tag: image_size: "2048x", toggleable: true}}
       {%- endcase -%}
     </template>
 
