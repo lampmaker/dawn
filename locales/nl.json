@@ -448,5 +448,12 @@
       "copy_code_success": "Code gekopieerd",
       "print_gift_card": "Afdrukken"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "review": {
+        "title": "Controleren"
+      }
+    }
   }
 }
