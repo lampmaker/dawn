@@ -36,7 +36,7 @@
             <a{% if block.settings.button_link == blank %} role="link" aria-disabled="true"{% else %} href="{{ block.settings.button_link }}"{% endif %} class="button{% if block.settings.button_style_secondary %} button--secondary{% else %} button--primary{% endif %}" {{ block.shopify_attributes }}>
               {{ block.settings.button_label | escape }}
             </a>
-      </div>d
+      </div>
       	{%- when 'liquid' -%}
     <div class=" page-width">{{ block.settings.custom_liquid }}</div>
         {%- endcase -%}
