@@ -1,4 +1,4 @@
-{%- if settings.header_language_switcher_enabled %}
+{%- if settings.language_switcher_enabled %}
 
 {%- liquid
 
@@ -17,47 +17,30 @@ assign country_code_placeholder = '[country-code]'
 
 assign language_to_country_mapping = shop.metafields.translation_lab.language_country.value
 
-assign div_wrapper = false
-assign li_wrapper = false
-
 -%}
 
-{{ 'translation-lab-language-dropdown.css' | asset_url | stylesheet_tag }}
+{{ 'translation-lab-language-switcher-floating.css' | asset_url | stylesheet_tag }}
 
-{%- if div_node -%}
-<div class="{{ div_node }}">
-{%- assign div_wrapper = true %}
-{%- elsif list_item -%}
-<li class="{{ list_item }}">
-{%- assign li_wrapper = true %}
-{%- endif %}
-
-<div class="translation-lab-language-switcher {{ responsive }}">
+<div class="translation-lab-language-switcher {{ settings.language_switcher_position }}">
     {%- form 'localization', class: 'tlab-localization' -%}
     <div class="translation-lab-dropdown">
-        {%- if settings.header_language_switcher_flags %}
+        {%- if settings.language_switcher_flags %}
         <img class="language-flag" src="{{ flag_images_path | replace: country_code_placeholder, language_to_country_mapping[current_language.iso_code] | downcase }}">
         {%- endif -%}
-        {%- case settings.header_language_switcher_label -%}
-        {%- when 'auto' %}
-        <span class="language-label language-name">{{ current_language.endonym_name | split: '(' | first | strip }}</span>
-        <span class="language-label language-code lang-mobile">{{ current_language.iso_code | split: '-' | first | strip }}</span>
+        {%- case settings.language_switcher_label -%}
         {%- when 'language-name' %}
         <span class="language-label language-name">{{ current_language.endonym_name | split: '(' | first | strip }}</span>
         {%- when 'language-code' %}
         <span class="language-label language-code">{{ current_language.iso_code | split: '-' | first | strip }}</span>
         {%- endcase %}
     </div>
-    <ul class="translation-lab-language-options">
+    <ul class="translation-lab-language-options {{ settings.language_switcher_position }}">
         {%- for language in localization_available_languages -%}
         <li class="language-option {% if language.iso_code == current_language.iso_code %}active{% endif %}" data-language-code="{{ language.iso_code }}">
-            {%- if settings.header_language_switcher_flags %}
+            {%- if settings.language_switcher_flags %}
             <img class="language-flag" src="{{ flag_images_path | replace: country_code_placeholder, language_to_country_mapping[language.iso_code] | downcase }}">
             {%- endif -%}
-            {%- case settings.header_language_switcher_label -%}
-            {%- when 'auto' %}
-            <span class="language-label language-name">{{ language.endonym_name | split: '(' | first | strip }}</span>
-            <span class="language-label language-code lang-mobile">{{ language.iso_code | split: '-' | first | strip }}</span>
+            {%- case settings.language_switcher_label -%}
             {%- when 'language-name' %}
             <span class="language-label language-name">{{ language.endonym_name | split: '(' | first | strip }}</span>
             {%- when 'language-code' %}
@@ -76,32 +59,56 @@ assign li_wrapper = false
 
 <style>
 
-  {%- if settings.header_language_switcher_label == 'auto' %}
-
-  .translation-lab-language-switcher .language-label.lang-mobile {
-    display: none !important;
+  .translation-lab-language-switcher {
+    background-color: {{ settings.language_switcher_background_color }} !important;
+    border-color: {{ settings.language_switcher_border_color }} !important;
+    border-width: {{ settings.language_switcher_border_width }}px !important;
+    font-size: {{ settings.language_switcher_font_size }} !important;
+    font-weight: {{ settings.language_switcher_font_weight }} !important;
   }
 
-  @media all and (max-width: 460px) {
-    .translation-lab-language-switcher .language-flag {
-      display: none !important;
-    }
+  .translation-lab-dropdown {
+    color: {{ settings.language_switcher_text_color }} !important;
   }
 
-  @media all and (max-width: 540px) {
-    .translation-lab-language-switcher .language-label:not(.lang-mobile) {
-      display: none !important;
-    }
-
-    .translation-lab-language-switcher .language-label.lang-mobile {
-      display: inline-block !important;
-    }
+  .translation-lab-dropdown:after {
+    border-color: {{ settings.language_switcher_text_color }} !important;
   }
 
-  {%- endif -%}
+  .translation-lab-language-switcher.top-right {
+    position: absolute;
+    top: {{ settings.language_switcher_spacing_top }}px;
+    bottom: auto;
+    left: auto;
+    right: {{ settings.language_switcher_spacing_right }}px;
+  }
 
-  {%- if settings.header_language_switcher_custom_css != blank %}
-  {{- settings.header_language_switcher_custom_css -}}
+  .translation-lab-language-switcher.top-left {
+    position: absolute;
+    top: {{ settings.language_switcher_spacing_top }}px;
+    bottom: auto;
+    left: {{ settings.language_switcher_spacing_left }}px;
+    right: auto;
+  }
+
+  .translation-lab-language-switcher.bottom-left {
+    position: fixed !important;
+    top: auto !important;
+    bottom: {{ settings.language_switcher_spacing_bottom }}px !important;
+    left: {{ settings.language_switcher_spacing_left }}px !important;
+    right: auto !important;
+  }
+
+  .translation-lab-language-switcher.bottom-right {
+    position: fixed !important;
+    top: auto !important;
+    bottom: {{ settings.language_switcher_spacing_bottom }}px !important;
+    left: auto !important;
+    right: {{ settings.language_switcher_spacing_right }}px !important;
+  }
+
+  {%- if settings.language_switcher_custom_css != blank -%}
+  {{- settings.language_switcher_custom_css -}}
   {%- endif %}
 
 </style>
@@ -219,20 +226,7 @@ assign li_wrapper = false
                 }
             });
 
-            document.addEventListener('click', handleOutsideClick, false);
-
-            function handleOutsideClick(event) {
-                if (!isOpen || event.target === dropdownElement) {
-                    return;
-                }
-                var path = event.composedPath();
-                for (var i = 0; i < path.length; i++) {
-                    if (path[i] === dropdownElement) {
-                        return;
-                    }
-                }
-                closeDropdown();
-            }
+            container.addEventListener('mouseleave', closeDropdown);
 
             function languageChangeHandler(element) {
                 var languageCode = element.dataset.languageCode;
@@ -315,11 +309,5 @@ assign li_wrapper = false
     })();
 
 </script>
-
-{%- if div_wrapper %}
-</div>
-{%- elsif _li_wrapper %}
-</li>
-{%- endif -%}
 
 {%- endif %}
