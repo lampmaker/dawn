@@ -99,6 +99,7 @@
     "currency_code_enabled": true,
     "header_language_switcher_enabled": true,
     "header_language_switcher_flags": true,
+    "header_language_switcher_label": "language-code",
     "checkout_logo_image": "shopify:\/\/shop_images\/kaboomlaser-transparent_465a720f-9d2f-42da-8224-dfc0661e06dc.png",
     "checkout_accent_color": "#0e5d3f",
     "checkout_button_color": "#0e5d3f",
