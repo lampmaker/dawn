@@ -571,6 +571,10 @@
         {%- endif -%}
       </a>
     </div>
+        {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}    
+        {%- endif -%}
+        {% render 'translation-lab-language-dropdown' %}      
+      
   </header>
 </{% if section.settings.enable_sticky_header %}sticky-header{% else %}div{% endif %}>
 
