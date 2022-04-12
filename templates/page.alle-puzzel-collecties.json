@@ -172,6 +172,33 @@
         "padding_bottom": 36
       }
     },
+    "1649759671ee2103ae": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "MAKKELIJKE PUZZELS VOOR KINDEREN",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "houten-puzzels-voor-kinderen",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -185,6 +212,7 @@
     "16497501555b44abcc",
     "1649750171384b8482",
     "16497502659b55b96f",
+    "1649759671ee2103ae",
     "main"
   ]
 }
