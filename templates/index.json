@@ -6,7 +6,7 @@
         "heading": {
           "type": "heading",
           "settings": {
-            "heading": "BEKIJK ONZE COLLECTIES HOUTEN PUZZELS",
+            "heading": "HOUTEN PUZZELS",
             "heading_size": "h2"
           }
         },
@@ -22,10 +22,10 @@
         "text"
       ],
       "settings": {
-        "color_scheme": "background-1",
+        "color_scheme": "accent-2",
         "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "1649667235715cd7e9": {
@@ -205,6 +205,34 @@
         "padding_bottom": 52
       }
     },
+    "1649758760d1bcd319": {
+      "type": "rich-text-MK",
+      "blocks": {
+        "1649758760a1405b7b-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "HOUTEN WANDDECORATIES",
+            "heading_size": "h2"
+          }
+        },
+        "1649758760a1405b7b-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hij ons geen wanddecoraties met geometrische vormen, maar juist unieke organische patronen. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1649758760a1405b7b-0",
+        "1649758760a1405b7b-1"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
+      }
+    },
     "1649668655e3dfa459": {
       "type": "featured-collection",
       "settings": {
@@ -270,6 +298,34 @@
         "swipe_on_mobile": false,
         "padding_top": 36,
         "padding_bottom": 36
+      }
+    },
+    "164975887467a3910b": {
+      "type": "rich-text-MK",
+      "blocks": {
+        "1649758874d547f941-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WOONACCESOIRES",
+            "heading_size": "h2"
+          }
+        },
+        "1649758874d547f941-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Leuke accesoires voor in en rond het huis. <\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "1649758874d547f941-0",
+        "1649758874d547f941-1"
+      ],
+      "settings": {
+        "color_scheme": "accent-2",
+        "full_width": true,
+        "padding_top": 20,
+        "padding_bottom": 20
       }
     },
     "16496687497d2c7151": {
@@ -465,8 +521,10 @@
     "1649668238f20adca1",
     "1649668406d7e4cb3b",
     "16496685897fd108d0",
+    "1649758760d1bcd319",
     "1649668655e3dfa459",
     "1649668660491caca0",
+    "164975887467a3910b",
     "16496687497d2c7151",
     "164966918134d473f0",
     "164974926350936b4d",
