@@ -350,6 +350,69 @@
         "padding_bottom": 52
       }
     },
+    "164974926350936b4d": {
+      "type": "collapsible-content",
+      "disabled": true,
+      "blocks": {
+        "1649749263ec2088a3-0": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Kleinschalig: altijd persoonlijke aandacht voor onze klanten en onze producten.",
+            "icon": "heart",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "1649749263ec2088a3-1": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Met liefde geproduceerd in Nederland, grotendeels met de hand.",
+            "icon": "return",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "1649749263ec2088a3-2": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        },
+        "1649749263ec2088a3-3": {
+          "type": "collapsible_row",
+          "settings": {
+            "heading": "Collapsible row",
+            "icon": "check_mark",
+            "row_content": "",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "1649749263ec2088a3-0",
+        "1649749263ec2088a3-1",
+        "1649749263ec2088a3-2",
+        "1649749263ec2088a3-3"
+      ],
+      "settings": {
+        "caption": "",
+        "heading": "DUURZAME CADEAUS",
+        "heading_size": "h2",
+        "heading_alignment": "left",
+        "layout": "none",
+        "color_scheme": "accent-2",
+        "container_color_scheme": "background-2",
+        "open_first_collapsible_row": true,
+        "image": "shopify:\/\/shop_images\/Untitled_design_61a312d2-0634-40b9-a9f8-fe5c53e5003c.png",
+        "image_ratio": "small",
+        "desktop_layout": "image_second",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16496701903eedf387": {
       "type": "image-with-text",
       "blocks": {
@@ -406,6 +469,7 @@
     "1649668660491caca0",
     "16496687497d2c7151",
     "164966918134d473f0",
+    "164974926350936b4d",
     "16496701903eedf387"
   ]
 }
