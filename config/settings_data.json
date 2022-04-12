@@ -1,9 +1,9 @@
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#0e5d3f",
+    "colors_accent_1": "#cc2c2b",
     "gradient_accent_1": "",
-    "colors_accent_2": "#975412",
+    "colors_accent_2": "#0e5d3f",
     "gradient_accent_2": "",
     "colors_text": "#121212",
     "colors_outline_button_labels": "#121212",
@@ -21,15 +21,15 @@
     "spacing_grid_vertical": 8,
     "buttons_border_thickness": 1,
     "buttons_border_opacity": 100,
-    "buttons_radius": 0,
-    "buttons_shadow_opacity": 0,
+    "buttons_radius": 4,
+    "buttons_shadow_opacity": 15,
     "buttons_shadow_horizontal_offset": 0,
     "buttons_shadow_vertical_offset": 4,
     "buttons_shadow_blur": 5,
     "variant_pills_border_thickness": 1,
     "variant_pills_border_opacity": 55,
-    "variant_pills_radius": 40,
-    "variant_pills_shadow_opacity": 0,
+    "variant_pills_radius": 4,
+    "variant_pills_shadow_opacity": 10,
     "variant_pills_shadow_horizontal_offset": 0,
     "variant_pills_shadow_vertical_offset": 4,
     "variant_pills_shadow_blur": 5,
@@ -46,7 +46,7 @@
     "card_color_scheme": "background-2",
     "card_border_thickness": 0,
     "card_border_opacity": 10,
-    "card_corner_radius": 0,
+    "card_corner_radius": 14,
     "card_shadow_opacity": 0,
     "card_shadow_horizontal_offset": 0,
     "card_shadow_vertical_offset": 4,
@@ -117,7 +117,7 @@
             "type": "announcement",
             "settings": {
               "text": "✔ Duurzaame producten ✔ Beoordeeld met een 9.7 bij Webwinkelkeur✔ Met liefde en aandacht gemaakt in Nederland ✔ Snel verzonden ✔ Elke maand 5€ shoptegoed voor abonnees van onze nieuwsbrief",
-              "color_scheme": "accent-1",
+              "color_scheme": "accent-2",
               "link": "shopify:\/\/pages\/krijg-elke-maand-5-shoptegoed"
             }
           }
@@ -131,7 +131,7 @@
       "header": {
         "type": "header",
         "settings": {
-          "color_scheme": "background-1",
+          "color_scheme": "background-2",
           "logo": "shopify:\/\/shop_images\/kaboomlaser-transparent_dd30b000-7a9a-4e3a-8cde-d4ab659550d6.png",
           "logo_width": 240,
           "logo_position": "middle-left",
