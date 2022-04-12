@@ -2,13 +2,189 @@
   "sections": {
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
       }
+    },
+    "1649750371e290a105": {
+      "type": "rich-text-MK",
+      "blocks": {
+        "1649750371598c1352-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "PUZZEL KIESHULP",
+            "heading_size": "h2"
+          }
+        },
+        "1649750371598c1352-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>HIer kun <\/p>"
+          }
+        },
+        "1649750371598c1352-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1649750371598c1352-0",
+        "1649750371598c1352-1",
+        "1649750371598c1352-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "16497501555b44abcc": {
+      "type": "collection-list",
+      "blocks": {
+        "16497501552994a807-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "moeilijkheid-⭐"
+          }
+        },
+        "16497501552994a807-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "moeilijkheid-⭐⭐"
+          }
+        },
+        "16497501552994a807-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "moeilijkheid-⭐⭐⭐"
+          }
+        },
+        "76317921-52c2-4b28-b88c-c37104ac340f": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "moelijkheid-⭐⭐⭐⭐"
+          }
+        },
+        "096633ea-91e6-40b7-8506-7a603adc278a": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "moeilijkheid-⭐⭐⭐⭐⭐"
+          }
+        }
+      },
+      "block_order": [
+        "16497501552994a807-0",
+        "16497501552994a807-1",
+        "16497501552994a807-2",
+        "76317921-52c2-4b28-b88c-c37104ac340f",
+        "096633ea-91e6-40b7-8506-7a603adc278a"
+      ],
+      "settings": {
+        "title": "OP MOEILIJKHEIDSGRAAD",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": true,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "1649750171384b8482": {
+      "type": "collection-list",
+      "blocks": {
+        "16497501712b70bd32-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "dieren-puzzels"
+          }
+        },
+        "16497501712b70bd32-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "abstracte-puzzels"
+          }
+        },
+        "16497501712b70bd32-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "natuur-puzzels"
+          }
+        }
+      },
+      "block_order": [
+        "16497501712b70bd32-0",
+        "16497501712b70bd32-1",
+        "16497501712b70bd32-2"
+      ],
+      "settings": {
+        "title": "OP ONDERWERP",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16497502659b55b96f": {
+      "type": "collection-list",
+      "blocks": {
+        "16497502654a173708-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "entropy-puzzels"
+          }
+        },
+        "16497502654a173708-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "chaos-puzzels"
+          }
+        },
+        "16497502654a173708-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": ""
+          }
+        }
+      },
+      "block_order": [
+        "16497502654a173708-0",
+        "16497502654a173708-1",
+        "16497502654a173708-2"
+      ],
+      "settings": {
+        "title": "OP STIJL",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 5,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "1649750371e290a105",
+    "16497501555b44abcc",
+    "1649750171384b8482",
+    "16497502659b55b96f"
   ]
 }
