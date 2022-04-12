@@ -570,10 +570,10 @@
           </div>
         {%- endif -%}
       </a>
-              {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}    
-              
+        {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}    
+        {%- endif -%}      
         {% render 'translation-lab-language-dropdown' %}      
-        {%- endif -%}
+        
     </div>
         
       
