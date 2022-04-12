@@ -1,5 +1,110 @@
 {
   "sections": {
+    "1649759407baa265a2": {
+      "type": "rich-text",
+      "blocks": {
+        "1649759407d469ccbd-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "HOUTEN WANDDECORATIE",
+            "heading_size": "h1"
+          }
+        },
+        "1649759407d469ccbd-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Met onze houten wanddecoraties haal je de natuur in huis. Het straalt warmte en gezelligheid uit. Met een muurdecoratie van hout creëer je een sfeervolle slaapkamer, kinderkamer of babykamer, woonkamer of keuken. Bekijk hieronder de verschillende collecties.<\/p>"
+          }
+        },
+        "1649759407d469ccbd-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1649759407d469ccbd-0",
+        "1649759407d469ccbd-1",
+        "1649759407d469ccbd-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "164975941098b4ac78": {
+      "type": "collection-list",
+      "blocks": {
+        "1649759410621d02fc-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "honden"
+          }
+        },
+        "1649759410621d02fc-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wanddecoratie-dieren"
+          }
+        },
+        "1649759410621d02fc-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "wanddecoratie-natuur"
+          }
+        }
+      },
+      "block_order": [
+        "1649759410621d02fc-0",
+        "1649759410621d02fc-1",
+        "1649759410621d02fc-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h1",
+        "image_ratio": "square",
+        "columns_desktop": 3,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "164975948734926fd7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ONZE POPULAIRSTE WANDDECORATIES",
+        "heading_size": "h2",
+        "description": "",
+        "show_description": false,
+        "description_style": "body",
+        "collection": "populairste-houten-muurdecoratie",
+        "products_to_show": 4,
+        "columns_desktop": 4,
+        "full_width": false,
+        "show_view_all": false,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
       "settings": {
@@ -9,6 +114,9 @@
     }
   },
   "order": [
+    "1649759407baa265a2",
+    "164975941098b4ac78",
+    "164975948734926fd7",
     "main"
   ]
 }
