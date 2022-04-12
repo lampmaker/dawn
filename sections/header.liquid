@@ -571,6 +571,8 @@
         {%- endif -%}
       </a>
               {%- if section.settings.enable_language_selector and localization.available_languages.size > 1 -%}    
+              
+        {% render 'translation-lab-language-dropdown' %}      
         {%- endif -%}
     </div>
         
