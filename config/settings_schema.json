@@ -4,8 +4,8 @@
     "theme_name": "Dawn",
     "theme_version": "4.0.0",
     "theme_author": "Shopify",
-    "theme_documentation_url": "https://help.shopify.com/manual/online-store/themes",
-    "theme_support_url": "https://support.shopify.com/"
+    "theme_documentation_url": "https:\/\/help.shopify.com\/manual\/online-store\/themes",
+    "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
     "name": "t:settings_schema.colors.name",
@@ -1141,6 +1141,59 @@
         "id": "currency_code_enabled",
         "label": "t:settings_schema.currency_format.settings.currency_code_enabled.label",
         "default": true
+      }
+    ]
+  },
+  {
+    "name": "Translation Lab",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Language Switcher"
+      },
+      {
+        "type": "checkbox",
+        "id": "header_language_switcher_enabled",
+        "label": "Enable language switcher",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Flags"
+      },
+      {
+        "type": "checkbox",
+        "id": "header_language_switcher_flags",
+        "label": "Show flags",
+        "default": true
+      },
+      {
+        "type": "header",
+        "content": "Labels"
+      },
+      {
+        "type": "select",
+        "id": "header_language_switcher_label",
+        "options": [
+          {
+            "value": "language-name",
+            "label": "Language name"
+          },
+          {
+            "value": "language-code",
+            "label": "Language code"
+          }
+        ],
+        "default": "language-name"
+      },
+      {
+        "type": "header",
+        "content": "Custom CSS"
+      },
+      {
+        "type": "textarea",
+        "id": "header_language_switcher_custom_css",
+        "default": "@media screen and (max-width: 768px) {}"
       }
     ]
   }
