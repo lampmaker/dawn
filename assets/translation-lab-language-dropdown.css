@@ -1,16 +1,15 @@
 .translation-lab-language-switcher {
-  border: 1px solid #000000;
-  background-color: #ffffff;
-  padding: 0;
-  font-family: sans-serif;
+  position: relative;
+  display: inline-block;
+  /*font-family: sans-serif;
   font-weight: 400;
   font-style: normal;
-  font-size: 14px;
+  font-size: 14px;*/
   line-height: 1;
-  letter-spacing: 0.1em;
+  letter-spacing: 1px;
   text-transform: capitalize;
   vertical-align: middle;
-  z-index: 999999999;
+  z-index: 9999;
 }
 
 .translation-lab-language-switcher > form {
@@ -20,7 +19,11 @@
 
 .translation-lab-language-switcher ul,
 .translation-lab-language-switcher li {
-  list-style: none;
+    list-style: none;
+}
+
+.translation-lab-language-switcher.mobile {
+  display: none;
 }
 
 .translation-lab-language-switcher .language-flag,
@@ -48,8 +51,10 @@
   position: relative;
   display: inline-block;
   padding: 0.4em 0.9em 0.4em 0.6em;
-  color: #5c5c5c;
+  /*color: #3a3a3a;*/
   cursor: pointer;
+  background-color: transparent;
+  white-space: nowrap;
   width: auto;
 }
 
@@ -101,45 +106,46 @@
 }
 
 .translation-lab-language-options .language-option {
+  display: block;
   margin: 0;
   padding: 0.25em 0.62em;
+  color: #333;
   cursor: pointer;
   transition: all .2s ease;
   white-space: nowrap;
+}
+
+.translation-lab-language-options .language-option.active {
+  /* border-bottom: 1px solid; */
 }
 
 .translation-lab-language-options .language-option:hover {
   opacity: .7;
 }
 
-.translation-lab-language-options .language-option .language-flag {
-  width: 1.5em;
+.translation-lab-language-switcher li::before,
+.translation-lab-language-switcher li::after {
+  content: none !important;
 }
 
-.translation-lab-language-options.top-right {
-  top: 100%;
-  bottom: auto;
-  left: auto;
-  right: 0;
+.is-light .translation-lab-dropdown,
+.header-wrapper--transparent .translation-lab-dropdown,
+.hero__header .translation-lab-dropdown,
+.Header--transparent .translation-lab-dropdown,
+html:not(.supports-no-js) body:not(.navigation-open) .site-header--transparent:not(.site-header--fixed) .translation-lab-dropdown {
+  color: #fff;
 }
 
-.translation-lab-language-options.top-left {
-  top: 100% !important;
-  bottom: auto !important;
-  left: 0 !important;
-  right: auto !important;
+.is-light .translation-lab-dropdown:after,
+.header-wrapper--transparent .translation-lab-dropdown:after,
+.hero__header .translation-lab-dropdown:after,
+.Header--transparent .translation-lab-dropdown:after,
+html:not(.supports-no-js) body:not(.navigation-open) .site-header--transparent:not(.site-header--fixed) .translation-lab-dropdown:after {
+  border-color: #fff;
 }
 
-.translation-lab-language-options.bottom-left {
-  top: auto !important;
-  bottom: 100% !important;
-  left: 0 !important;
-  right: auto !important;
-}
-
-.translation-lab-language-options.bottom-right {
-  top: auto !important;
-  bottom: 100% !important;
-  left: auto !important;
-  right: 0 !important;
+@media screen and (max-width: 1239px) {
+  .translation-lab-language-switcher.mobile {
+    display: inline-block;
+  }
 }
