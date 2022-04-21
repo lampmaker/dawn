@@ -601,6 +601,9 @@
       {% if product.selected_or_first_available_variant.sku != blank -%}
         "sku": {{ product.selected_or_first_available_variant.sku | json }},
       {%- endif %}
+      {% if product.selected_or_first_available_variant.barcode != blank -%}
+        "gtin": {{ product.selected_or_first_available_variant.barcode | json }},
+      {%- endif %}
       "brand": {
         "@type": "Thing",
         "name": {{ product.vendor | json }}
