@@ -89,6 +89,54 @@
         "padding_bottom": 36
       }
     },
+    "165061494580935e9b": {
+      "type": "image-banner",
+      "blocks": {
+        "16506149459b4f491a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "8 MEI IS HET MOEDERDAG",
+            "heading_size": "h2"
+          }
+        },
+        "16506149459b4f491a-1": {
+          "type": "text",
+          "settings": {
+            "text": "Heb jij al een leuk cadeautje?",
+            "text_style": "body"
+          }
+        },
+        "16506149459b4f491a-2": {
+          "type": "buttons",
+          "settings": {
+            "button_label_1": "KIJK HIER VOOR IDEETJES",
+            "button_link_1": "shopify:\/\/collections\/moederdag",
+            "button_style_secondary_1": true,
+            "button_label_2": "",
+            "button_link_2": "",
+            "button_style_secondary_2": false
+          }
+        }
+      },
+      "block_order": [
+        "16506149459b4f491a-0",
+        "16506149459b4f491a-1",
+        "16506149459b4f491a-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/peach-and-purple-tulips.jpg",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "164966755293b90939": {
       "type": "featured-collection",
       "settings": {
@@ -517,6 +565,7 @@
   "order": [
     "rich_text",
     "1649667235715cd7e9",
+    "165061494580935e9b",
     "164966755293b90939",
     "1649668238f20adca1",
     "1649668406d7e4cb3b",
