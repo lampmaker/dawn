@@ -12,17 +12,27 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "35709b1a-5ed0-4b60-8be6-9f32ead331c5": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p>A collection of unique puzzles, created by world-class artists. <\/p>",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "1650890879a5d5ce9e-0"
+        "1650890879a5d5ce9e-0",
+        "35709b1a-5ed0-4b60-8be6-9f32ead331c5"
       ],
       "settings": {
-        "title": "Multicolumn",
+        "title": "",
         "heading_size": "h1",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 1,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "none",
         "button_label": "",
