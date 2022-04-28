@@ -2,10 +2,55 @@
   "sections": {
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
-        "show_collection_description": true,
+        "show_collection_description": false,
         "show_collection_image": false,
         "color_scheme": "background-2"
+      }
+    },
+    "1651131926622f8dd8": {
+      "type": "multicolumn",
+      "blocks": {
+        "165113192655084945-0": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2022-04-25_142547.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "165113192655084945-2": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "<p><strong>code+wood <\/strong>is een unieke collectie puzzels. Elke puzzel van deze collectie heeft een uniek ontwerp, er zijn geen twee hetzelfde. <\/p><p>Met een<strong> code+wood<\/strong> puzzel koop je een uniek kunstwerk wat je alleen nog zelf in elkaar hoeft te zetten<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165113192655084945-0",
+        "165113192655084945-2"
+      ],
+      "settings": {
+        "title": "",
+        "heading_size": "h2",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 2,
+        "column_alignment": "left",
+        "background_style": "none",
+        "button_label": "",
+        "button_link": "",
+        "color_scheme": "background-1",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 4
       }
     },
     "product-grid": {
@@ -36,6 +81,7 @@
   },
   "order": [
     "banner",
+    "1651131926622f8dd8",
     "product-grid",
     "banner-end"
   ]
