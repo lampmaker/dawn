@@ -453,6 +453,12 @@
     "checkout": {
       "review": {
         "title": "Controleren"
+      },
+      "general": {
+        "complete_purchase_button_label": "Bevestig aankoop"
+      },
+      "processing": {
+        "complete_your_purchase_title": "Je aankoop voltooien"
       }
     }
   }
