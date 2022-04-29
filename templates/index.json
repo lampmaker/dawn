@@ -89,6 +89,60 @@
         "padding_bottom": 36
       }
     },
+    "1651229312d8f7d136": {
+      "type": "multicolumn",
+      "blocks": {
+        "1651229312f0b555bf-0": {
+          "type": "column",
+          "settings": {
+            "title": "GEKLEURDE PUZZELS",
+            "text": "<p>de code+wood puzzels zijn gekleurd met zachte inkt die in het hout trekt. Zo blijft  de structuur en kleur van het hout goed herkenbaar<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1651229312f0b555bf-2": {
+          "type": "column",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Screenshot_2022-04-25_142547.png",
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
+        },
+        "1651229312f0b555bf-1": {
+          "type": "column",
+          "settings": {
+            "title": "LIMITED EDITION",
+            "text": "<p>Alle ontwerpen uit de code+wood collectie zijn limited edition: elke afbeelding wordt slechts één keer geproduceerd.  Zo haal je een uniek kunstwerkje in huis.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "1651229312f0b555bf-0",
+        "1651229312f0b555bf-2",
+        "1651229312f0b555bf-1"
+      ],
+      "settings": {
+        "title": "NIEUW : LIMITED EDITION GEKLEURDE PUZZELS",
+        "heading_size": "h1",
+        "image_width": "full",
+        "image_ratio": "adapt",
+        "columns_desktop": 3,
+        "column_alignment": "left",
+        "background_style": "primary",
+        "button_label": "BEKIJK DE EERSTE PUZZEL UIT DEZE COLLECTIE",
+        "button_link": "shopify:\/\/products\/flow-code-wood-limited-edition-puzzels",
+        "color_scheme": "background-2",
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "165061494580935e9b": {
       "type": "image-banner",
       "blocks": {
@@ -565,6 +619,7 @@
   "order": [
     "rich_text",
     "1649667235715cd7e9",
+    "1651229312d8f7d136",
     "165061494580935e9b",
     "164966755293b90939",
     "1649668238f20adca1",
