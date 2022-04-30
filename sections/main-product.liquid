@@ -358,8 +358,8 @@
                                 {% if option.selected_value == value %}checked{% endif %}
                           >
                           <label for="{{ section.id }}-{{ option.position }}-{{ forloop.index0 }}">
-                            {% unless variant_label_state %} <s>{% endunless %}
-                            {{ value }}  {% unless variant_label_state %} SOLD </s>{% endunless %}
+                            {% unless variant_label_state %}<s>{% endunless %}
+                            {{ value }}  {% unless variant_label_state %}</s>{% endunless %}
                           </label>
                         {%- endfor -%}
                       </fieldset>
