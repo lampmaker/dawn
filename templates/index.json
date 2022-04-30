@@ -134,12 +134,66 @@
         "columns_desktop": 3,
         "column_alignment": "left",
         "background_style": "primary",
-        "button_label": "BEKIJK DE EERSTE PUZZEL UIT DEZE COLLECTIE",
-        "button_link": "shopify:\/\/products\/flow-code-wood-limited-edition-puzzels",
+        "button_label": "",
+        "button_link": "",
         "color_scheme": "background-2",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "16513039144756a5fd": {
+      "type": "featured-product",
+      "blocks": {
+        "1651303913fad2b8b1-0": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "{{ section.settings.product.vendor }}",
+            "text_style": "uppercase"
+          }
+        },
+        "1651303913fad2b8b1-1": {
+          "type": "title",
+          "settings": {
+            "heading_size": "h1"
+          }
+        },
+        "1651303913fad2b8b1-3": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "1651303913fad2b8b1-2": {
+          "type": "text",
+          "settings": {
+            "text": "De Flow puzzel uit de code+wood serie is een puzzel met abstracte patronen, gegenereerd met een vloeistofsimulatie.  Dit is een limited edition serie, van elke opdruk wordt slechts één puzzel geproduceerd.  Kies jouw ontwerp en je krijgt een unieke puzzel in huis. ",
+            "text_style": "body"
+          }
+        },
+        "1651303913fad2b8b1-4": {
+          "type": "variant_picker",
+          "disabled": true,
+          "settings": {
+            "picker_type": "button"
+          }
+        }
+      },
+      "block_order": [
+        "1651303913fad2b8b1-0",
+        "1651303913fad2b8b1-1",
+        "1651303913fad2b8b1-3",
+        "1651303913fad2b8b1-2",
+        "1651303913fad2b8b1-4"
+      ],
+      "settings": {
+        "product": "flow-code-wood-limited-edition-puzzels",
+        "color_scheme": "background-2",
+        "secondary_background": false,
+        "hide_variants": false,
+        "enable_video_looping": false,
+        "padding_top": 0,
         "padding_bottom": 36
       }
     },
@@ -620,6 +674,7 @@
     "rich_text",
     "1649667235715cd7e9",
     "1651229312d8f7d136",
+    "16513039144756a5fd",
     "165061494580935e9b",
     "164966755293b90939",
     "1649668238f20adca1",
