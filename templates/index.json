@@ -136,65 +136,55 @@
         "background_style": "primary",
         "button_label": "",
         "button_link": "",
-        "color_scheme": "background-2",
+        "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 36,
-        "padding_bottom": 36
+        "padding_bottom": 8
       }
     },
-    "16513039144756a5fd": {
-      "type": "featured-product",
+    "1651341451f01bd4ca": {
+      "type": "image-with-text",
       "blocks": {
-        "1651303913fad2b8b1-0": {
-          "type": "text",
-          "disabled": true,
+        "1651341451f77b2c6c-0": {
+          "type": "heading",
           "settings": {
-            "text": "{{ section.settings.product.vendor }}",
-            "text_style": "uppercase"
+            "heading": "Flow | Houten Puzzel | code+wood limited edition puzzels",
+            "heading_size": "h2"
           }
         },
-        "1651303913fad2b8b1-1": {
-          "type": "title",
-          "settings": {
-            "heading_size": "h1"
-          }
-        },
-        "1651303913fad2b8b1-3": {
-          "type": "price",
-          "settings": {
-          }
-        },
-        "1651303913fad2b8b1-2": {
+        "1651341451f77b2c6c-1": {
           "type": "text",
           "settings": {
-            "text": "De Flow puzzel uit de code+wood serie is een puzzel met abstracte patronen, gegenereerd met een vloeistofsimulatie.  Dit is een limited edition serie, van elke opdruk wordt slechts één puzzel geproduceerd.  Kies jouw ontwerp en je krijgt een unieke puzzel in huis. ",
+            "text": "<p>De Flow puzzel uit de code+wood collectie is een serie puzzels met abstracte patronen, gegenereerd met een vloeistofsimulatie.  Dit is een limited edition serie, van elke opdruk wordt slechts één puzzel geproduceerd.  Kies jouw ontwerp en je krijgt een unieke puzzel in huis. <\/p>",
             "text_style": "body"
           }
         },
-        "1651303913fad2b8b1-4": {
-          "type": "variant_picker",
-          "disabled": true,
+        "1651341451f77b2c6c-2": {
+          "type": "button",
           "settings": {
-            "picker_type": "button"
+            "button_label": "Bekijk de serie",
+            "button_link": "shopify:\/\/products\/flow-code-wood-limited-edition-puzzels"
           }
         }
       },
       "block_order": [
-        "1651303913fad2b8b1-0",
-        "1651303913fad2b8b1-1",
-        "1651303913fad2b8b1-3",
-        "1651303913fad2b8b1-2",
-        "1651303913fad2b8b1-4"
+        "1651341451f77b2c6c-0",
+        "1651341451f77b2c6c-1",
+        "1651341451f77b2c6c-2"
       ],
       "settings": {
-        "product": "flow-code-wood-limited-edition-puzzels",
+        "image": "shopify:\/\/shop_images\/flow024p.png",
+        "height": "adapt",
+        "desktop_image_width": "small",
+        "layout": "image_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
         "color_scheme": "background-2",
-        "secondary_background": false,
-        "hide_variants": false,
-        "enable_video_looping": false,
+        "mobile_content_alignment": "left",
         "padding_top": 0,
-        "padding_bottom": 36
+        "padding_bottom": 16
       }
     },
     "165061494580935e9b": {
@@ -674,7 +664,7 @@
     "rich_text",
     "1649667235715cd7e9",
     "1651229312d8f7d136",
-    "16513039144756a5fd",
+    "1651341451f01bd4ca",
     "165061494580935e9b",
     "164966755293b90939",
     "1649668238f20adca1",
