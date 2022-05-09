@@ -4,6 +4,7 @@
       "type": "main-collection-banner",
       "settings": {
         "show_collection_description": true,
+        "show_collection_title": false,
         "show_collection_image": true,
         "color_scheme": "background-2"
       }
