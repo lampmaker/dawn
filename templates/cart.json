@@ -1,5 +1,43 @@
 {
   "sections": {
+    "1652948670b44a54c3": {
+      "type": "rich-text-MK",
+      "blocks": {
+        "1652948670e286064a-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "SPRING SALE: DEZE MAAND 25% KORTING OP ALLES!",
+            "heading_size": "h1"
+          }
+        },
+        "1652948670e286064a-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>MINIMALE BESTELWAARDE 50€. DE KORTING WORDT VERWERKT BIJ HET AFREKENEN.<\/p>"
+          }
+        },
+        "1652948670e286064a-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1652948670e286064a-0",
+        "1652948670e286064a-1",
+        "1652948670e286064a-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "cart-items": {
       "type": "main-cart-items",
       "settings": {
@@ -10,6 +48,7 @@
     },
     "164967292859dacef4": {
       "type": "newsletter",
+      "disabled": true,
       "blocks": {
         "164967292821688f61-0": {
           "type": "heading",
@@ -134,6 +173,7 @@
     }
   },
   "order": [
+    "1652948670b44a54c3",
     "cart-items",
     "164967292859dacef4",
     "cart-footer",
