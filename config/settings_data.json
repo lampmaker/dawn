@@ -1,7 +1,7 @@
 {
   "current": {
     "colors_solid_button_labels": "#ffffff",
-    "colors_accent_1": "#cc2c2b",
+    "colors_accent_1": "#e28020",
     "gradient_accent_1": "",
     "colors_accent_2": "#0e5d3f",
     "gradient_accent_2": "",
@@ -120,10 +120,19 @@
               "color_scheme": "accent-2",
               "link": "shopify:\/\/pages\/krijg-elke-maand-5-shoptegoed"
             }
+          },
+          "3d3ef043-5610-423b-9cf4-b499f83c14ed": {
+            "type": "announcement",
+            "settings": {
+              "text": "SPRING SALE:  TOT EIND MEI KRIJG JE 25% KORTING OP ALLES, BIJ EEN MINMALE BESTELWAARDE VAN 50€. TE ZIEN BIJ HET AFREKENEN.",
+              "color_scheme": "accent-1",
+              "link": ""
+            }
           }
         },
         "block_order": [
-          "announcement-bar-0"
+          "announcement-bar-0",
+          "3d3ef043-5610-423b-9cf4-b499f83c14ed"
         ],
         "settings": {
         }
