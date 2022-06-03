@@ -324,7 +324,6 @@
     },
     "16542548561e97295e": {
       "type": "collection-list",
-      "disabled": true,
       "blocks": {
         "16542548569e2ec004-0": {
           "type": "featured_collection",
@@ -358,7 +357,7 @@
         "eb0c8661-10c5-47cc-bc00-4622d63302ab"
       ],
       "settings": {
-        "title": "CADEAUTJE NODIG?",
+        "title": "SNEL EEN CADEAUTJE NODIG?",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 4,
