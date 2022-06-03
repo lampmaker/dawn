@@ -1,9 +1,47 @@
 {
   "sections": {
+    "1654255431a1081ed6": {
+      "type": "image-banner",
+      "blocks": {
+        "1654255431de11d383-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "{{ collection.title }}",
+            "heading_size": "h2"
+          }
+        },
+        "1654255431de11d383-1": {
+          "type": "text",
+          "settings": {
+            "text": "Wat is er nu leuker dan iemand een mooi,  duurzaam cadeau te geven?   We pakken het altijd mooi voor je in, je hoeft het alleen nog maar weg te geven!  En natuurlijk sturen we het ook graag voor je op.  Wil je er een boodschap bij? Laat dan een opmerking achter bij de bestelling.",
+            "text_style": "body"
+          }
+        }
+      },
+      "block_order": [
+        "1654255431de11d383-0",
+        "1654255431de11d383-1"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/20201119_144648.webp",
+        "image_overlay_opacity": 0,
+        "image_height": "small",
+        "adapt_height_first_image": false,
+        "desktop_content_position": "middle-center",
+        "show_text_box": true,
+        "desktop_content_alignment": "center",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "center",
+        "stack_images_on_mobile": true,
+        "show_text_below": true
+      }
+    },
     "banner": {
       "type": "main-collection-banner",
+      "disabled": true,
       "settings": {
         "show_collection_description": true,
+        "show_collection_title": true,
         "show_collection_image": false,
         "color_scheme": "background-2"
       }
@@ -35,6 +73,7 @@
     }
   },
   "order": [
+    "1654255431a1081ed6",
     "banner",
     "product-grid",
     "banner-end"
