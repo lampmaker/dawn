@@ -2,19 +2,18 @@
   "sections": {
     "1652948670b44a54c3": {
       "type": "rich-text-MK",
-      "disabled": true,
       "blocks": {
         "1652948670e286064a-0": {
           "type": "heading",
           "settings": {
-            "heading": "SUMMER SALE: 25% KORTING OP ALLES!",
-            "heading_size": "h1"
+            "heading": "TWEEDE ARTIKEL MET 50% KORTING!  GEBRUIK \"SPRINGSALE\" BIJ HET AFREKENEN",
+            "heading_size": "h2"
           }
         },
         "1652948670e286064a-1": {
           "type": "text",
           "settings": {
-            "text": "<p>MINIMALE BESTELWAARDE 50€. DE KORTING WORDT VERWERKT BIJ HET AFREKENEN.<\/p>"
+            "text": "<p>De korting wordt toegepast op het goedkoopste artikel <\/p>"
           }
         },
         "1652948670e286064a-2": {
