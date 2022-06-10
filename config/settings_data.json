@@ -113,14 +113,6 @@
       "announcement-bar": {
         "type": "announcement-bar",
         "blocks": {
-          "244b620f-5178-4f89-8f4c-ffe5910da9c8": {
-            "type": "announcement",
-            "settings": {
-              "text": "TWEEDE ARTIKEL MET 50% KORTING!  GEBRUIK \"SPRINGSALE\" BIJ HET AFREKENEN",
-              "color_scheme": "accent-1",
-              "link": "https:\/\/kaboomlaser.com\/discount\/SPRINGSALE"
-            }
-          },
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
@@ -133,7 +125,7 @@
             "type": "announcement",
             "disabled": true,
             "settings": {
-              "text": "SUMMER SALE:  25% KORTING OP ALLES, BIJ EEN MINMALE BESTELWAARDE VAN 50€. TE ZIEN BIJ HET AFREKENEN.",
+              "text": "SUMMER SALE:  20% KORTING OP ALLES, BIJ EEN MINMALE BESTELWAARDE VAN 50€. TE ZIEN BIJ HET AFREKENEN.",
               "color_scheme": "accent-1",
               "link": ""
             }
@@ -148,7 +140,6 @@
           }
         },
         "block_order": [
-          "244b620f-5178-4f89-8f4c-ffe5910da9c8",
           "announcement-bar-0",
           "3d3ef043-5610-423b-9cf4-b499f83c14ed",
           "c877cee2-b8e9-431b-ae27-258121f5ab67"
