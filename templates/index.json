@@ -127,6 +127,44 @@
         "padding_bottom": 36
       }
     },
+    "16566617654291b444": {
+      "type": "rich-text-MK",
+      "blocks": {
+        "16566617653d181ca3-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "BEKIJK ALLE COLLECTIES PUZZELS",
+            "heading_size": "h1"
+          }
+        },
+        "16566617653d181ca3-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "16566617653d181ca3-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "HOUTEN PUZZELS VOOR VOLWASSENEN",
+            "button_link": "shopify:\/\/collections\/houten-puzzels-voor-volwassenen",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "16566617653d181ca3-0",
+        "16566617653d181ca3-1",
+        "16566617653d181ca3-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1649668238f20adca1": {
       "type": "rich-text-MK",
       "blocks": {
@@ -681,6 +719,7 @@
     "1652948373c9ec5902",
     "rich_text",
     "1649667235715cd7e9",
+    "16566617654291b444",
     "1649668238f20adca1",
     "1652001173fcadcd32",
     "165061494580935e9b",
