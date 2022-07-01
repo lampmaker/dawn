@@ -9,97 +9,11 @@
         "color_scheme": "background-2"
       }
     },
-    "165665937033685931": {
-      "type": "collection-list",
-      "blocks": {
-        "16566593701bbfa0af-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "houten-puzzels-van-zeedieren"
-          }
-        },
-        "16566593701bbfa0af-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "houten-puzzels-van-vogels"
-          }
-        },
-        "16566593701bbfa0af-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "houten-puzzels-van-wilde-dieren"
-          }
-        },
-        "516ecd06-a65a-4ec3-8dec-23fc28805d08": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": "houten-puzzels-van-huisdieren"
-          }
-        }
-      },
-      "block_order": [
-        "16566593701bbfa0af-0",
-        "16566593701bbfa0af-1",
-        "16566593701bbfa0af-2",
-        "516ecd06-a65a-4ec3-8dec-23fc28805d08"
-      ],
-      "settings": {
-        "title": "BEKIJK DE VERSCHILLENDE COLLECTIES DIERENPUZZELS",
-        "heading_size": "h2",
-        "image_ratio": "square",
-        "columns_desktop": 4,
-        "color_scheme": "background-1",
-        "show_view_all": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 36
-      }
-    },
-    "1656659537f09092b0": {
-      "type": "rich-text-MK",
-      "blocks": {
-        "16566595375d3c40dd-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "ALLE DIEREN PUZZELS",
-            "heading_size": "h2"
-          }
-        },
-        "16566595375d3c40dd-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "16566595375d3c40dd-2": {
-          "type": "button",
-          "disabled": true,
-          "settings": {
-            "button_label": "Button label",
-            "button_link": "",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "16566595375d3c40dd-0",
-        "16566595375d3c40dd-1",
-        "16566595375d3c40dd-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 0
-      }
-    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "settings": {
         "products_per_page": 24,
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
@@ -158,14 +72,60 @@
         "padding_top": 40,
         "padding_bottom": 52
       }
+    },
+    "165665937033685931": {
+      "type": "collection-list",
+      "blocks": {
+        "16566593701bbfa0af-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houten-puzzels-van-zeedieren"
+          }
+        },
+        "16566593701bbfa0af-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houten-puzzels-van-vogels"
+          }
+        },
+        "16566593701bbfa0af-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houten-puzzels-van-wilde-dieren"
+          }
+        },
+        "516ecd06-a65a-4ec3-8dec-23fc28805d08": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houten-puzzels-van-huisdieren"
+          }
+        }
+      },
+      "block_order": [
+        "16566593701bbfa0af-0",
+        "16566593701bbfa0af-1",
+        "16566593701bbfa0af-2",
+        "516ecd06-a65a-4ec3-8dec-23fc28805d08"
+      ],
+      "settings": {
+        "title": "BEKIJK ANDERE DIERENPUZZELS",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
     }
   },
   "order": [
     "banner",
-    "165665937033685931",
-    "1656659537f09092b0",
     "product-grid",
     "banner-end",
-    "1656659682649894ae"
+    "1656659682649894ae",
+    "165665937033685931"
   ]
 }
