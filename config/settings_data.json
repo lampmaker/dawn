@@ -123,6 +123,7 @@
           },
           "3d3ef043-5610-423b-9cf4-b499f83c14ed": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "SUMMER SALE:  20% KORTING OP ALLES, BIJ EEN MINMALE BESTELWAARDE VAN 50€. TE ZIEN BIJ HET AFREKENEN.",
               "color_scheme": "accent-1",
