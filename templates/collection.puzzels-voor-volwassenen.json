@@ -15,13 +15,13 @@
         "16566593701bbfa0af-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "houten-puzzels-van-zeedieren"
+            "collection": "dieren-puzzels"
           }
         },
         "16566593701bbfa0af-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "houten-puzzels-van-vogels"
+            "collection": "bomen-en-planten-puzzels"
           }
         },
         "16566593701bbfa0af-2": {
@@ -33,7 +33,13 @@
         "516ecd06-a65a-4ec3-8dec-23fc28805d08": {
           "type": "featured_collection",
           "settings": {
-            "collection": "houten-puzzels-van-huisdieren"
+            "collection": "houten-puzzels-in-de-vorm-van-een-eiland"
+          }
+        },
+        "bcdd5c32-347a-4642-b90f-ed7eeeadc4cb": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houten-puzzels-van-het-menselijk-lichaam"
           }
         }
       },
@@ -41,17 +47,18 @@
         "16566593701bbfa0af-0",
         "16566593701bbfa0af-1",
         "16566593701bbfa0af-2",
-        "516ecd06-a65a-4ec3-8dec-23fc28805d08"
+        "516ecd06-a65a-4ec3-8dec-23fc28805d08",
+        "bcdd5c32-347a-4642-b90f-ed7eeeadc4cb"
       ],
       "settings": {
-        "title": "BEKIJK DE VERSCHILLENDE COLLECTIES DIERENPUZZELS",
+        "title": "BEKIJK DE VERSCHILLENDE COLLECTIES",
         "heading_size": "h2",
         "image_ratio": "square",
-        "columns_desktop": 4,
+        "columns_desktop": 5,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "1",
-        "swipe_on_mobile": false,
+        "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
       }
@@ -62,7 +69,7 @@
         "16566595375d3c40dd-0": {
           "type": "heading",
           "settings": {
-            "heading": "ALLE DIEREN PUZZELS",
+            "heading": "ALLE PUZZELS VOOR VOLWASSENEN",
             "heading_size": "h2"
           }
         },
