@@ -220,45 +220,6 @@
         "show_collection_description": true,
         "color_scheme": "background-1"
       }
-    },
-    "1656659682649894ae": {
-      "type": "rich-text",
-      "blocks": {
-        "1656659682fc5010b1-0": {
-          "type": "heading",
-          "disabled": true,
-          "settings": {
-            "heading": "Talk about your brand",
-            "heading_size": "h1"
-          }
-        },
-        "1656659682fc5010b1-1": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
-          }
-        },
-        "1656659682fc5010b1-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "TERUG NAAR ALLE PUZZELS VOOR VOLWASSENEN",
-            "button_link": "shopify:\/\/collections\/houten-puzzels",
-            "button_style_secondary": false
-          }
-        }
-      },
-      "block_order": [
-        "1656659682fc5010b1-0",
-        "1656659682fc5010b1-1",
-        "1656659682fc5010b1-2"
-      ],
-      "settings": {
-        "color_scheme": "background-1",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
     }
   },
   "order": [
@@ -268,7 +229,6 @@
     "16566603098cf0cf88",
     "1656659537f09092b0",
     "product-grid",
-    "banner-end",
-    "1656659682649894ae"
+    "banner-end"
   ]
 }
