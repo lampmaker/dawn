@@ -99,13 +99,41 @@
           "settings": {
             "collection": "houten-puzzels-van-huisdieren"
           }
+        },
+        "06965a9a-5081-4039-9148-736d6863d349": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bomen-en-planten-puzzels"
+          }
+        },
+        "ebc785df-78c5-4fca-ad8f-94ed28afb61c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "abstracte-puzzels"
+          }
+        },
+        "86343d8d-f59d-4632-88a5-3095d8cda313": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houten-puzzels-van-het-menselijk-lichaam"
+          }
+        },
+        "2124ae3c-695b-4f08-9dfb-97cc553a68fc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houten-puzzels-in-de-vorm-van-een-eiland"
+          }
         }
       },
       "block_order": [
         "16566593701bbfa0af-0",
         "16566593701bbfa0af-1",
         "16566593701bbfa0af-2",
-        "516ecd06-a65a-4ec3-8dec-23fc28805d08"
+        "516ecd06-a65a-4ec3-8dec-23fc28805d08",
+        "06965a9a-5081-4039-9148-736d6863d349",
+        "ebc785df-78c5-4fca-ad8f-94ed28afb61c",
+        "86343d8d-f59d-4632-88a5-3095d8cda313",
+        "2124ae3c-695b-4f08-9dfb-97cc553a68fc"
       ],
       "settings": {
         "title": "BEKIJK ANDERE PUZZELS",
