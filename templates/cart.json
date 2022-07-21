@@ -104,6 +104,44 @@
         "show_cart_note": true
       }
     },
+    "16584030297dbc84bb": {
+      "type": "rich-text",
+      "blocks": {
+        "1658403029f4c6087d-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "WIJ ZIJN MET VAKANTIE",
+            "heading_size": "h2"
+          }
+        },
+        "1658403029f4c6087d-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>Je kan de bestelling gewoon plaatsen, maar deze wordt pas vanaf 8 Augustus verwerkt.<\/strong><\/p>"
+          }
+        },
+        "1658403029f4c6087d-2": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1658403029f4c6087d-0",
+        "1658403029f4c6087d-1",
+        "1658403029f4c6087d-2"
+      ],
+      "settings": {
+        "color_scheme": "accent-1",
+        "full_width": true,
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
     "16496731065236c87c": {
       "type": "rich-text-MK",
       "blocks": {
@@ -178,6 +216,7 @@
     "164967292859dacef4",
     "1652948670b44a54c3",
     "cart-footer",
+    "16584030297dbc84bb",
     "16496731065236c87c",
     "164967292594c16862",
     "164967340612a21527"
