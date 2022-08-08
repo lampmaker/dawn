@@ -124,6 +124,7 @@
           },
           "3d3ef043-5610-423b-9cf4-b499f83c14ed": {
             "type": "announcement",
+            "disabled": true,
             "settings": {
               "text": "Vakantiesluiting- orders worden weer verwerkt vanaf maandag 8 augustus",
               "color_scheme": "accent-1",
@@ -132,7 +133,6 @@
           },
           "c877cee2-b8e9-431b-ae27-258121f5ab67": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "Verzendkosten Nederland €5,95, gratis bij bestellingen boven €100.      Belgie + Duitsland: €9,95, gratis bij bestellingen boven €150.   (Wanddecoraties uitgezonderd)",
               "color_scheme": "background-2",
