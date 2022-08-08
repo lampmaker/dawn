@@ -459,6 +459,9 @@
       },
       "processing": {
         "complete_your_purchase_title": "Je aankoop voltooien"
+      },
+      "alternative_payment_method_banner": {
+        "or": "Of betaal met Ideal, credit card of per overschrijving: "
       }
     }
   }
