@@ -49,6 +49,7 @@
       "blocks": {
         "1652948670e286064a-0": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "heading": "SUMMER SALE: 20% KORTING OP ALLES!",
             "heading_size": "h2"
@@ -56,6 +57,7 @@
         },
         "1652948670e286064a-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "<p><em>Minimale bestelwaarde 50€. <br\/>De korting wordt automatisch toegepast bij het afrekenen.<\/em><\/p>"
           }
@@ -106,6 +108,7 @@
     },
     "16584030297dbc84bb": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "1658403029f4c6087d-0": {
           "type": "heading",
