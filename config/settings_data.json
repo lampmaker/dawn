@@ -115,7 +115,6 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "✔ Duurzaame producten ✔ Beoordeeld met een 9.7 bij Webwinkelkeur✔ Met liefde en aandacht gemaakt in Nederland ✔ Snel verzonden ✔ Elke maand 5€ shoptegoed voor abonnees van onze nieuwsbrief",
               "color_scheme": "accent-2",
