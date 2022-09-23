@@ -69,6 +69,7 @@
     },
     "166392522903856dc3": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
