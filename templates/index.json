@@ -70,7 +70,7 @@
     "1663926058b544aaf0": {
       "type": "custom-liquid",
       "settings": {
-        "custom_liquid": "<video class=\"video-background\" loop=\"\" muted=\"\" no-controls=\"\" autoplay=\"\" src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/36160e5dc1af49edb620d46af222163c.mp4\" playsinline=\"\" >\n<source type=\"video\/mp4\" src=\"\">\n<\/source><\/video>\n\n<style>\n.video-background {\nwidth: 100%;\npadding-top: 0px;\nopacity: 1;\nheight: auto;\nleft: 0;\ntop: 0;\n}\n<\/style>",
+        "custom_liquid": "<video id=\"mainvideo\" class=\"video-background\" loop=\"\" muted=\"\" no-controls=\"\" autoplay=\"\" src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/36160e5dc1af49edb620d46af222163c.mp4\" playsinline=\"\" >\n<source type=\"video\/mp4\" src=\"\">\n<\/source><\/video>\n\n<style>\n.video-background {\nwidth: 100%;\npadding-top: 0px;\nopacity: 1;\nheight: auto;\nleft: 0;\ntop: 0;\n}\n<\/style>\n<script>\nvideos=[\n\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/36160e5dc1af49edb620d46af222163c.mp4\",\n\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/782eb8a00ca943ec8a5d3d807bb9fe69.mp4\"\n]\ndocument.getElementById(\"mainvideo\").src=videos[(Math.random()*videos.length)|0]\n<\/script>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
