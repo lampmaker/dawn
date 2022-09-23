@@ -67,16 +67,10 @@
         "padding_bottom": 12
       }
     },
-    "166392522903856dc3": {
-      "type": "video",
-      "disabled": true,
+    "1663926058b544aaf0": {
+      "type": "custom-liquid",
       "settings": {
-        "heading": "",
-        "heading_size": "h2",
-        "cover_image": "shopify:\/\/shop_images\/download_1_6d8a8a55-45eb-48bd-9d10-ee2f3e440f87.png",
-        "video_url": "",
-        "description": "Eekhoorn puzzel",
-        "full_width": true,
+        "custom_liquid": "<video class=\"video-background\" loop=\"\" muted=\"\" no-controls=\"\" autoplay=\"\" src=\"https:\/\/cdn.shopify.com\/videos\/c\/o\/v\/36160e5dc1af49edb620d46af222163c.mp4\" playsinline=\"\" >\n<source type=\"video\/mp4\" src=\"\">\n<\/source><\/video>\n\n<style>\n.video-background {\nwidth: 100%;\npadding-top: 0px;\nopacity: 1;\nheight: auto;\nleft: 0;\ntop: 0;\n}\n<\/style>",
         "color_scheme": "background-1",
         "padding_top": 0,
         "padding_bottom": 0
@@ -782,7 +776,7 @@
   "order": [
     "1652948373c9ec5902",
     "rich_text",
-    "166392522903856dc3",
+    "1663926058b544aaf0",
     "1649667235715cd7e9",
     "1649668238f20adca1",
     "1663923621ababe628",
