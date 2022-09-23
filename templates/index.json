@@ -191,7 +191,7 @@
         "809c22a4-f519-4a87-8b0d-00d81adab1b4"
       ],
       "settings": {
-        "title": "COLLECTIES OP ONDERWERP",
+        "title": "PUZZEL COLLECTIES OP ONDERWERP",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 5,
@@ -299,19 +299,19 @@
     },
     "165061494580935e9b": {
       "type": "image-banner",
-      "disabled": true,
       "blocks": {
         "16506149459b4f491a-0": {
           "type": "heading",
           "settings": {
-            "heading": "8 MEI IS HET MOEDERDAG",
+            "heading": "De feestdagen komen er weer aan!",
             "heading_size": "h2"
           }
         },
         "16506149459b4f491a-1": {
           "type": "text",
+          "disabled": true,
           "settings": {
-            "text": "Heb jij al een leuk cadeautje?",
+            "text": "Zoek je nog leuke cadeautjes?",
             "text_style": "body"
           }
         },
@@ -319,7 +319,7 @@
           "type": "buttons",
           "settings": {
             "button_label_1": "KIJK HIER VOOR IDEETJES",
-            "button_link_1": "shopify:\/\/collections\/moederdag",
+            "button_link_1": "shopify:\/\/collections\/kerst",
             "button_style_secondary_1": true,
             "button_label_2": "",
             "button_link_2": "",
@@ -333,8 +333,8 @@
         "16506149459b4f491a-2"
       ],
       "settings": {
-        "image": "shopify:\/\/shop_images\/peach-and-purple-tulips.jpg",
-        "image_overlay_opacity": 0,
+        "image": "shopify:\/\/shop_images\/christmas-lights.jpg",
+        "image_overlay_opacity": 20,
         "image_height": "small",
         "adapt_height_first_image": false,
         "desktop_content_position": "middle-center",
