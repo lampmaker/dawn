@@ -69,11 +69,12 @@
     },
     "166392522903856dc3": {
       "type": "video",
+      "disabled": true,
       "settings": {
         "heading": "",
         "heading_size": "h2",
         "cover_image": "shopify:\/\/shop_images\/download_1_6d8a8a55-45eb-48bd-9d10-ee2f3e440f87.png",
-        "video_url": "https:\/\/youtu.be\/qcWfySW6_qU",
+        "video_url": "",
         "description": "Eekhoorn puzzel",
         "full_width": true,
         "color_scheme": "background-1",
