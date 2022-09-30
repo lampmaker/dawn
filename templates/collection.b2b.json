@@ -1,0 +1,159 @@
+{
+  "sections": {
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "show_collection_description": true,
+        "show_collection_title": true,
+        "show_collection_image": false,
+        "color_scheme": "background-2"
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "settings": {
+        "products_per_page": 24,
+        "columns_desktop": 4,
+        "image_ratio": "adapt",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": true,
+        "enable_quick_add": false,
+        "enable_filtering": false,
+        "filter_type": "drawer",
+        "enable_sorting": true,
+        "columns_mobile": "1",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
+    "banner-end": {
+      "type": "main-collection-banner-end",
+      "settings": {
+        "show_collection_description": true,
+        "color_scheme": "background-1"
+      }
+    },
+    "1656659682649894ae": {
+      "type": "rich-text",
+      "blocks": {
+        "1656659682fc5010b1-0": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "heading": "Talk about your brand",
+            "heading_size": "h1"
+          }
+        },
+        "1656659682fc5010b1-1": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Share information about your brand with your customers. Describe a product, make announcements, or welcome customers to your store.<\/p>"
+          }
+        },
+        "1656659682fc5010b1-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "TERUG NAAR ALLE PUZZELS VOOR VOLWASSENEN",
+            "button_link": "shopify:\/\/collections\/houten-puzzels-voor-volwassenen",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "1656659682fc5010b1-0",
+        "1656659682fc5010b1-1",
+        "1656659682fc5010b1-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
+    "165665937033685931": {
+      "type": "collection-list",
+      "blocks": {
+        "16566593701bbfa0af-0": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houten-puzzels-van-zeedieren"
+          }
+        },
+        "16566593701bbfa0af-1": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houten-puzzels-van-vogels"
+          }
+        },
+        "16566593701bbfa0af-2": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houten-puzzels-van-wilde-dieren"
+          }
+        },
+        "516ecd06-a65a-4ec3-8dec-23fc28805d08": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houten-puzzels-van-huisdieren"
+          }
+        },
+        "06965a9a-5081-4039-9148-736d6863d349": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "bomen-en-planten-puzzels"
+          }
+        },
+        "ebc785df-78c5-4fca-ad8f-94ed28afb61c": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "abstracte-puzzels"
+          }
+        },
+        "86343d8d-f59d-4632-88a5-3095d8cda313": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houten-puzzels-van-het-menselijk-lichaam"
+          }
+        },
+        "2124ae3c-695b-4f08-9dfb-97cc553a68fc": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houten-puzzels-in-de-vorm-van-een-eiland"
+          }
+        }
+      },
+      "block_order": [
+        "16566593701bbfa0af-0",
+        "16566593701bbfa0af-1",
+        "16566593701bbfa0af-2",
+        "516ecd06-a65a-4ec3-8dec-23fc28805d08",
+        "06965a9a-5081-4039-9148-736d6863d349",
+        "ebc785df-78c5-4fca-ad8f-94ed28afb61c",
+        "86343d8d-f59d-4632-88a5-3095d8cda313",
+        "2124ae3c-695b-4f08-9dfb-97cc553a68fc"
+      ],
+      "settings": {
+        "title": "BEKIJK ANDERE PUZZELS",
+        "heading_size": "h2",
+        "image_ratio": "square",
+        "columns_desktop": 4,
+        "color_scheme": "background-1",
+        "show_view_all": false,
+        "columns_mobile": "1",
+        "swipe_on_mobile": false,
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    }
+  },
+  "order": [
+    "banner",
+    "product-grid",
+    "banner-end",
+    "1656659682649894ae",
+    "165665937033685931"
+  ]
+}
