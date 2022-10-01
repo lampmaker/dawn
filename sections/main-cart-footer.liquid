@@ -64,7 +64,7 @@
                 </button>
            
               </div>
- <img  src="{{ section.settings.image | image_url: width: 1500 }}">
+                  {%- if section.settings.image -%}<img  src="{{ section.settings.image | image_url: width: 1500 }}">{%- endif -%}
               {%- if additional_checkout_buttons -%}
                 <div class="cart__dynamic-checkout-buttons additional-checkout-buttons">
                   {{ content_for_additional_checkout_buttons }}
