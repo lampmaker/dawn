@@ -62,9 +62,9 @@
                 <button type="submit" id="checkout" class="cart__checkout-button button" name="checkout"{% if cart == empty %} disabled{% endif %} form="cart">
                   {{ 'sections.cart.checkout' | t }}
                 </button>
-            <img  src="{{ section.settings.image | image_url: width: 1500 }}">
+           
               </div>
-
+ <img  src="{{ section.settings.image | image_url: width: 1500 }}">
               {%- if additional_checkout_buttons -%}
                 <div class="cart__dynamic-checkout-buttons additional-checkout-buttons">
                   {{ content_for_additional_checkout_buttons }}
