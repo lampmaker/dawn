@@ -101,7 +101,8 @@
         "buttons"
       ],
       "settings": {
-        "show_cart_note": true
+        "show_cart_note": true,
+        "image": "shopify:\/\/shop_images\/Screenshot_2022-10-01_114246.png"
       }
     },
     "16584030297dbc84bb": {
