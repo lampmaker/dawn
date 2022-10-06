@@ -231,14 +231,20 @@
     ],
     "blocks": {
       "10266191395559956426": {
-        "type": "shopify:\/\/apps\/product-badges\/blocks\/app-embed\/c3fbfaba-9acb-4416-8bb5-be185b9aa0e8",
-        "disabled": false,
+        "type": "shopify:\/\/apps\/product-badges-labels-pro\/blocks\/app-embed\/c3fbfaba-9acb-4416-8bb5-be185b9aa0e8",
+        "disabled": true,
         "settings": {
         }
       },
       "12793297677437526120": {
-        "type": "shopify:\/\/apps\/content-translation\/blocks\/custom_translations\/b5b83690-efd4-434d-8c6a-a5cef4019faf",
-        "disabled": false,
+        "type": "shopify:\/\/apps\/t-lab-ai-language-translate\/blocks\/custom_translations\/b5b83690-efd4-434d-8c6a-a5cef4019faf",
+        "disabled": true,
+        "settings": {
+        }
+      },
+      "8194965531299925038": {
+        "type": "shopify:\/\/apps\/webwinkelkeur\/blocks\/sidebar\/c3ac2bcb-63f1-40d3-9622-f307cd559ad3",
+        "disabled": true,
         "settings": {
         }
       }
