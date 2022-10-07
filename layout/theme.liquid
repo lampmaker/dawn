@@ -238,9 +238,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                   {% include 'bss-product-labels-configs' %}
                     
 <script>(() => {const installerKey = 'docapp-shipping-auto-install'; const urlParams = new URLSearchParams(window.location.search); if (urlParams.get(installerKey)) {window.sessionStorage.setItem(installerKey, JSON.stringify({integrationId: urlParams.get('docapp-integration-id'), divClass: urlParams.get('docapp-install-class'), check: urlParams.get('docapp-check')}));}})();</script>
-
 <script>(() => {const previewKey = 'docapp-shipping-test'; const urlParams = new URLSearchParams(window.location.search); if (urlParams.get(previewKey)) {window.sessionStorage.setItem(previewKey, JSON.stringify({active: true, integrationId: urlParams.get('docapp-shipping-inst-test')}));}})();</script>
-<script id='fm-cart-token-script'>function getCartToken() {
+<!--
+  <script id='fm-cart-token-script'>function getCartToken() {
     let idx = document.cookie.indexOf('cart=');
     if (idx == -1) {
         return null;
@@ -278,6 +278,8 @@ tId = setInterval(function () {
         console.error("FM not loaded yet", err);
     }
 }, 300);</script>
+-->
+  
 </head>
              
 
