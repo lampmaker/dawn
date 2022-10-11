@@ -294,6 +294,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     {%- if settings.predictive_search_enabled -%}
       <script src="{{ 'predictive-search.js' | asset_url }}" defer="defer"></script>
     {%- endif -%}
-{% render 'globo.preorder.script' %}{% if content_for_header contains 'product_label' %}{% include 'bss-product-label-js' %}{% include 'bss-label-style-css' %}{% endif %}	{% if content_for_header contains 'upsell-now.herokuapp.com' %}{% render 'upsell-now', customer: customer, product: product, template: template, cart: cart %}{% endif %}
+
 	</body>
 </html>
