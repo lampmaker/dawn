@@ -334,15 +334,6 @@
         "padding_bottom": 16
       }
     },
-    "35cceac9-dfe9-4805-a11a-04168ee37e91": {
-      "type": "custom-liquid",
-      "settings": {
-        "custom_liquid": "<a name=\"midpage\"><\/a>",
-        "color_scheme": "background-1",
-        "padding_top": 0,
-        "padding_bottom": 0
-      }
-    },
     "1652001173fcadcd32": {
       "type": "featured-collection",
       "disabled": true,
@@ -527,6 +518,15 @@
         "full_width": true,
         "padding_top": 40,
         "padding_bottom": 52
+      }
+    },
+    "35cceac9-dfe9-4805-a11a-04168ee37e91": {
+      "type": "custom-liquid",
+      "settings": {
+        "custom_liquid": "<a name=\"midpage\"><\/a>",
+        "color_scheme": "background-1",
+        "padding_top": 0,
+        "padding_bottom": 0
       }
     },
     "1649758760d1bcd319": {
@@ -848,12 +848,12 @@
     "1663923621ababe628",
     "16566621121d4f3dc9",
     "1649668406d7e4cb3b",
-    "35cceac9-dfe9-4805-a11a-04168ee37e91",
     "1652001173fcadcd32",
     "165061494580935e9b",
     "164966755293b90939",
     "16542548561e97295e",
     "16496685897fd108d0",
+    "35cceac9-dfe9-4805-a11a-04168ee37e91",
     "1649758760d1bcd319",
     "1649668655e3dfa459",
     "1649668660491caca0",
