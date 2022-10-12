@@ -836,6 +836,29 @@
         "padding_top": 36,
         "padding_bottom": 36
       }
+    },
+    "1665582403eb613f1b": {
+      "type": "apps",
+      "blocks": {
+        "151a5b86-a18f-491e-ab26-cef74becbd4f": {
+          "type": "shopify:\/\/apps\/lit-token-access\/blocks\/lit_promotional\/4732e2db-085a-4ab3-863c-70ba0036eea6",
+          "settings": {
+            "background_color": "#efecec",
+            "border_color": "#757575",
+            "detail_text_color": "#757575",
+            "connect_text_color": "#2c0c72",
+            "primary_loader_color": "#f3f3f3",
+            "accent_loader_color": "#3498db",
+            "border_radius": "4"
+          }
+        }
+      },
+      "block_order": [
+        "151a5b86-a18f-491e-ab26-cef74becbd4f"
+      ],
+      "settings": {
+        "include_margins": true
+      }
     }
   },
   "order": [
@@ -861,6 +884,7 @@
     "16496687497d2c7151",
     "164966918134d473f0",
     "164974926350936b4d",
-    "16496701903eedf387"
+    "16496701903eedf387",
+    "1665582403eb613f1b"
   ]
 }
