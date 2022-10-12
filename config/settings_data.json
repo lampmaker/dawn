@@ -116,7 +116,7 @@
           "announcement-bar-0": {
             "type": "announcement",
             "settings": {
-              "text": "✔ Duurzaame producten ✔ Beoordeeld met een 9.7 bij Webwinkelkeur✔ Met liefde en aandacht gemaakt in Nederland ✔ Snel verzonden ✔ Elke maand 5€ shoptegoed voor abonnees van onze nieuwsbrief",
+              "text": "✔ Duurzaame producten   ✔ Beoordeeld met een 9.7 bij Webwinkelkeur   ✔ Met liefde en aandacht gemaakt in Nederland",
               "color_scheme": "accent-2",
               "link": "shopify:\/\/pages\/krijg-elke-maand-5-shoptegoed"
             }
