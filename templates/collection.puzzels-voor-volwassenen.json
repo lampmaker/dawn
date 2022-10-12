@@ -207,7 +207,7 @@
         "show_rating": true,
         "enable_quick_add": false,
         "enable_filtering": true,
-        "filter_type": "drawer",
+        "filter_type": "horizontal",
         "enable_sorting": true,
         "columns_mobile": "1",
         "padding_top": 36,
