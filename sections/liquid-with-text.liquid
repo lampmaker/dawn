@@ -40,8 +40,7 @@
             width="{{ section.settings.image.width }}"
             height="{{ section.settings.image.height }}"
           >
-        {%- else -%}
-          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        
         {%- endif -%}
          {{ section.settings.custom_liquid }}
       </div>
