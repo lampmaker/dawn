@@ -842,6 +842,7 @@
       "blocks": {
         "151a5b86-a18f-491e-ab26-cef74becbd4f": {
           "type": "shopify:\/\/apps\/lit-token-access\/blocks\/lit_promotional\/4732e2db-085a-4ab3-863c-70ba0036eea6",
+          "disabled": true,
           "settings": {
             "background_color": "#efecec",
             "border_color": "#757575",
