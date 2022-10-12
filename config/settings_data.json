@@ -201,8 +201,8 @@
         ],
         "settings": {
           "color_scheme": "background-2",
-          "newsletter_enable": false,
-          "newsletter_heading": "Subscribe to our emails",
+          "newsletter_enable": true,
+          "newsletter_heading": "Meld je aan voor de nieuwsletter!",
           "show_social": true,
           "enable_country_selector": false,
           "enable_language_selector": false,
