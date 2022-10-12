@@ -97,7 +97,7 @@
           "type": "button",
           "settings": {
             "button_label": "Ik zoek iets anders",
-            "button_link": "",
+            "button_link": "\/#midpage",
             "button_style_secondary": true
           }
         }
