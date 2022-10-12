@@ -118,7 +118,7 @@
         "content_layout": "no-overlap",
         "color_scheme": "background-1",
         "mobile_content_alignment": "left",
-        "padding_top": 0,
+        "padding_top": 16,
         "padding_bottom": 16
       }
     },
@@ -174,8 +174,8 @@
         "14317d6f-cb66-4e6a-a941-bdb3504b227d"
       ],
       "settings": {
-        "title": "",
-        "heading_size": "h1",
+        "title": "PUZZELS GESORTEERD OP MOEILIJKHEID",
+        "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 5,
         "color_scheme": "background-1",
