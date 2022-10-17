@@ -251,8 +251,11 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3HSXGB"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-    {% section 'announcement-bar' %}
-    {% section 'header' %}
+    {% if template !contains 'noheader' %}
+    {% section 'announcement-bar' %}    
+    {% section 'header' %}  
+    {% endif %}
+
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
