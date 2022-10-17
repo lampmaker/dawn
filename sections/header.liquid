@@ -83,7 +83,7 @@
 {%- endstyle -%}
 
 {% if template contains 'noheader' %}
-  console.log("noheader")
+  <script>console.log("{{ template }}")</script>
       {% style %}
         .section-header,.section-footer {
           display:none;
