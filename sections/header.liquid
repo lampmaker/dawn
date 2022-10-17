@@ -85,9 +85,7 @@
 {% if template contains 'noheader' %}
   <script>console.log("{{ template }}")</script>
       {% style %}
-        .section-header,.section-footer {
-          display:none;
-        }
+        shopify-section {          display:none;        }
       {% endstyle %}
 {% endif %}
   
