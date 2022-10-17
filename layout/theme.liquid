@@ -251,17 +251,19 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-T3HSXGB"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
-    {% if template contains 'noheader' %}
-      {% else %}
-    {% section 'announcement-bar' %}    
-    {% section 'header' %}  
-    {% endif %}
-
+    {% if template contains 'noheader' %}      
     <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
       {{ content_for_layout }}
     </main>
+    {% else %}
+      {% section 'announcement-bar' %}    
+      {% section 'header' %}  
+      <main id="MainContent" class="content-for-layout focus-none" role="main" tabindex="-1">
+      {{ content_for_layout }}
+    </main>
+       {% section 'footer' %}
 
-    {% section 'footer' %}
+    {% endif %}
 
     <ul hidden>
       <li id="a11y-refresh-page-message">{{ 'accessibility.refresh_page' | t }}</li>
