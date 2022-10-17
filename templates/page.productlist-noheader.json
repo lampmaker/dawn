@@ -10,7 +10,6 @@
     },
     "8772d47c-73ee-476a-be98-601a2ca1e72b": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--14647907188841__8772d47c-73ee-476a-be98-601a2ca1e72b-1666033739464f965d-0": {
           "type": "column",
@@ -82,13 +81,14 @@
     },
     "e81dd740-15f8-469a-b711-f6230af55c1c": {
       "type": "featured-collection-b2b",
+      "disabled": true,
       "settings": {
         "title": "collection b2b",
         "heading_size": "h1",
         "description": "",
         "show_description": false,
         "description_style": "body",
-        "collection": "b2b",
+        "collection": "alle-puzzels",
         "products_to_show": 4,
         "columns_desktop": 4,
         "full_width": false,
