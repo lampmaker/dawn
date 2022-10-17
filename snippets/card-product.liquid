@@ -13,7 +13,7 @@
     - section_id: {String} The ID of the section that contains this card.
     - show_additional
     Usage:
-    {% render 'card-product', show_vendor: section.settings.show_vendor, show_additional:section.settings.show_additional %}
+    {% render 'card-product', show_vendor: section.settings.show_vendor %}
 {% endcomment %}
 
 {{ 'component-rating.css' | asset_url | stylesheet_tag }}
@@ -253,6 +253,7 @@
               <span class="visually-hidden">{{ 'accessibility.vendor' | t }}</span>
               <div class="caption-with-letter-spacing light">{{ 'products.product.vendor' | t }}</div>
             {%- endif -%}
+           
             {% render 'price' %}
           </div>
         </div>
