@@ -75,6 +75,15 @@
             "link": ""
           }
         },
+        "1f40be00-1a3c-420e-baae-8aca2c370638": {
+          "type": "column",
+          "settings": {
+            "title": "VERPAKKING",
+            "text": "<p>De puzzels van Kaboomlaser zijn verpakt in een zakje van biologisch, ongebleekt katoen.  Aan het zakje zit een houten label met het silhouet van de puzzel.  Op de achterkant van het label zit een sticker met barcode, prijs en afmetingen + aantal stukjes van de puzzel.<\/p>",
+            "link_label": "",
+            "link": ""
+          }
+        },
         "template--14647510728809__019610d4-b3fc-4ff9-9ab0-4d80e1ba7190-166600580480e9178f-1": {
           "type": "column",
           "settings": {
@@ -96,6 +105,7 @@
       },
       "block_order": [
         "template--14647510728809__019610d4-b3fc-4ff9-9ab0-4d80e1ba7190-166600580480e9178f-0",
+        "1f40be00-1a3c-420e-baae-8aca2c370638",
         "template--14647510728809__019610d4-b3fc-4ff9-9ab0-4d80e1ba7190-166600580480e9178f-1",
         "template--14647510728809__019610d4-b3fc-4ff9-9ab0-4d80e1ba7190-166600580480e9178f-2"
       ],
@@ -104,7 +114,7 @@
         "heading_size": "h2",
         "image_width": "full",
         "image_ratio": "adapt",
-        "columns_desktop": 3,
+        "columns_desktop": 2,
         "column_alignment": "left",
         "background_style": "primary",
         "button_label": "",
