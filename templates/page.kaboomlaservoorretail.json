@@ -1,7 +1,63 @@
 {
   "sections": {
+    "c58f6f48-7143-4ad5-8bb4-e5ddc2469edc": {
+      "type": "liquid-with-text",
+      "blocks": {
+        "template--14647510728809__c58f6f48-7143-4ad5-8bb4-e5ddc2469edc-1666001932af2f57b7-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Kaboomlaser puzzels voor retail",
+            "heading_size": "h1"
+          }
+        },
+        "template--14647510728809__c58f6f48-7143-4ad5-8bb4-e5ddc2469edc-1666001932af2f57b7-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>De puzzels van Kaboomlaser zijn ook beschikbaar voor wederverkoop in fysieke winkels.  Onze display is een prachtig punt van aandacht in elke winkel.  <\/p><p>Heb je interesse? neem contact op voor de mogelijkheden en kortingen.<\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14647510728809__c58f6f48-7143-4ad5-8bb4-e5ddc2469edc-1666001932af2f57b7-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Inloggen voor bestaande klanten",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        },
+        "dcde2672-d5d6-4c36-bc9b-8c8cae9b8cea": {
+          "type": "button",
+          "settings": {
+            "button_label": "Ik wil graag klant worden!",
+            "button_link": "shopify:\/\/pages\/contact",
+            "button_style_secondary": true
+          }
+        }
+      },
+      "block_order": [
+        "template--14647510728809__c58f6f48-7143-4ad5-8bb4-e5ddc2469edc-1666001932af2f57b7-0",
+        "template--14647510728809__c58f6f48-7143-4ad5-8bb4-e5ddc2469edc-1666001932af2f57b7-1",
+        "template--14647510728809__c58f6f48-7143-4ad5-8bb4-e5ddc2469edc-1666001932af2f57b7-2",
+        "dcde2672-d5d6-4c36-bc9b-8c8cae9b8cea"
+      ],
+      "settings": {
+        "custom_liquid": "",
+        "image": "shopify:\/\/shop_images\/20221005_102728-01.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-1",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "main": {
       "type": "main-page",
+      "disabled": true,
       "settings": {
         "padding_top": 28,
         "padding_bottom": 28
@@ -34,6 +90,43 @@
         "padding_bottom": 36
       }
     },
+    "1bbb8d90-9bc6-4835-ab1d-6a9358c1d37e": {
+      "type": "rich-text-MK",
+      "blocks": {
+        "template--14647510728809__1bbb8d90-9bc6-4835-ab1d-6a9358c1d37e-166600214447898a07-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "Over onze puzzels",
+            "heading_size": "h1"
+          }
+        },
+        "template--14647510728809__1bbb8d90-9bc6-4835-ab1d-6a9358c1d37e-166600214447898a07-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>De puzzels van Kaboomlaser zijn bijzonder: gemaakt van stevig, duurzaam berkenhout.  Omdat ze geen opdruk hebben,  hebben ze een hele natuurlijke, rustige uitstraling. Wij ontwerpen en produceren alle puzzels zelf, op duurzame wijze in Nederland.<\/p><p><strong>De Entropy puzzels <\/strong> zijn in het algemeen wat goedkoper en makkelijker om te maken; deze puzzels kun je veelal in een avond maken. reken op 1 uur voor de eenvoudigste tot 4 uur voor de grootste variant.   Deze puzzels zijn ook geschikt om cadeau te geven.<\/p><p><strong>De Chaos puzzels<\/strong> zijn een echte uitdaging voor gevorderde puzzelaars of mensen die een uitdaging zoeken. Reken op meerder dagen of zelfs weken werk!<\/p>"
+          }
+        },
+        "template--14647510728809__1bbb8d90-9bc6-4835-ab1d-6a9358c1d37e-166600214447898a07-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": "",
+            "button_style_secondary": false
+          }
+        }
+      },
+      "block_order": [
+        "template--14647510728809__1bbb8d90-9bc6-4835-ab1d-6a9358c1d37e-166600214447898a07-0",
+        "template--14647510728809__1bbb8d90-9bc6-4835-ab1d-6a9358c1d37e-166600214447898a07-1",
+        "template--14647510728809__1bbb8d90-9bc6-4835-ab1d-6a9358c1d37e-166600214447898a07-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "e7cb1bc0-b76c-4be9-a1c3-2e023ccd65d2": {
       "type": "featured-collection",
       "settings": {
@@ -63,8 +156,10 @@
     }
   },
   "order": [
+    "c58f6f48-7143-4ad5-8bb4-e5ddc2469edc",
     "main",
     "6ec2fd4e-a005-46a8-a61d-b63b432e70d5",
+    "1bbb8d90-9bc6-4835-ab1d-6a9358c1d37e",
     "e7cb1bc0-b76c-4be9-a1c3-2e023ccd65d2"
   ]
 }
