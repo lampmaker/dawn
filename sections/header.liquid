@@ -82,8 +82,13 @@
   }
 {%- endstyle -%}
 
-
-<script>console.log("{{ template }}")</script>
+{% if template contains 'noheader' %}
+      {% style %}
+        #shopify-section-header,#shopify-section-footer {
+          display:none;
+        }
+      {% endstyle %}
+{% endif %}
   
 <script src="{{ 'details-disclosure.js' | asset_url }}" defer="defer"></script>
 <script src="{{ 'details-modal.js' | asset_url }}" defer="defer"></script>
