@@ -52,9 +52,8 @@
         "padding_bottom": 36
       }
     },
-    "b52c37f1-daf8-4117-81e8-49efc935f665": {
-      "type": "featured-collection",
-      "disabled": true,
+    "5c01e9dc-cc72-47be-bb73-e143a6720295": {
+      "type": "featured-collection-b2b",
       "settings": {
         "title": "",
         "heading_size": "h1",
@@ -62,8 +61,8 @@
         "show_description": false,
         "description_style": "body",
         "collection": "alle-puzzels",
-        "products_to_show": 12,
-        "columns_desktop": 4,
+        "products_to_show": 40,
+        "columns_desktop": 5,
         "full_width": true,
         "show_view_all": true,
         "view_all_style": "solid",
@@ -73,6 +72,8 @@
         "show_secondary_image": false,
         "show_vendor": false,
         "show_rating": false,
+        "product": "",
+        "productdescription": "",
         "enable_quick_add": false,
         "columns_mobile": "2",
         "swipe_on_mobile": false,
@@ -84,6 +85,6 @@
   "order": [
     "main",
     "8772d47c-73ee-476a-be98-601a2ca1e72b",
-    "b52c37f1-daf8-4117-81e8-49efc935f665"
+    "5c01e9dc-cc72-47be-bb73-e143a6720295"
   ]
 }
