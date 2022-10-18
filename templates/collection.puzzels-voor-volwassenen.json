@@ -119,6 +119,7 @@
     },
     "16566603098cf0cf88": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "1656660309cf2f26ad-0": {
           "type": "featured_collection",
@@ -163,7 +164,7 @@
         "16566595375d3c40dd-0": {
           "type": "heading",
           "settings": {
-            "heading": "ALLE PUZZELS VOOR VOLWASSENEN",
+            "heading": "ALLE PUZZELS",
             "heading_size": "h2"
           }
         },
