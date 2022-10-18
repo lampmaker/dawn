@@ -13,6 +13,11 @@
         </cart-note>
       {%- endif -%}
 
+  {% if customer.tags contains 'B2B' %}
+    <input type="hidden" name="discount" form="cart"value="RETAIL" > 
+ {% endif %}
+
+      
       <div class="cart__blocks">
         {% for block in section.blocks %}
           {%- case block.type -%}
