@@ -32,6 +32,13 @@
             "stars_text_empty": "No reviews"
           }
         },
+        "3ec0ab16-eabc-46f1-aaa6-6f890734c6ec": {
+          "type": "text",
+          "settings": {
+            "text": "Getoonde prijs is exclusief korting.",
+            "text_style": "body"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -122,6 +129,7 @@
         "title",
         "caption",
         "0eeea5f4-2f35-459c-b2b4-fbb4107e84d9",
+        "3ec0ab16-eabc-46f1-aaa6-6f890734c6ec",
         "price",
         "variant_picker",
         "558234c9-74a8-441c-81a9-284e0f2c0d92",
