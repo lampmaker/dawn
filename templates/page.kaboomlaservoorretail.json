@@ -21,7 +21,7 @@
           "type": "button",
           "settings": {
             "button_label": "Inloggen voor bestaande klanten",
-            "button_link": "",
+            "button_link": "\/account\/login",
             "button_style_secondary": false
           }
         },
