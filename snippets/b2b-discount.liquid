@@ -23,7 +23,12 @@
   {% if customer.tags contains tag %}
      {%- assign nr=tag | remove:"PRO"-%}    
     {% if show_customer %} 
-          {{ customer.default_address.country }}
+      {% for country in localization.available_countries %}
+          {% if country == customer.default_address.country %}
+            {{ country.iso_code }}
+          {% endif %}
+      {% endfor %}
+      
     {% endif %}
     {{ nr }}
     {% endif %}
