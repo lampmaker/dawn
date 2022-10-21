@@ -79,7 +79,7 @@
           "type": "column",
           "settings": {
             "title": "VERPAKKING",
-            "text": "<p>De puzzels van Kaboomlaser zijn verpakt in een zakje van biologisch, ongebleekt katoen.  Aan het zakje zit een houten label met het silhouet van de puzzel.  Op de achterkant van het label zit een sticker met barcode, prijs en afmetingen + aantal stukjes van de puzzel.<\/p>",
+            "text": "<p>De puzzels zijn verpakt in een zakje van biologisch, ongebleekt katoen.  Aan het zakje zit een houten label met het silhouet van de puzzel.  Op de achterkant van het label zit een sticker met barcode, prijs en afmetingen + aantal stukjes van de puzzel.<\/p>",
             "link_label": "",
             "link": ""
           }
@@ -97,7 +97,7 @@
           "type": "column",
           "settings": {
             "title": "CHAOS PUZZELS",
-            "text": "<p>De Chaos puzzels zijn een echte uitdaging voor gevorderde puzzelaars of mensen die een uitdaging zoeken. Reken op meerder dagen of zelfs weken werk!.   <br\/><\/p><p>Een chaos puzzel van 300 stukjes is qua moeilijkheid vergelijkbaar met een reguliere legpuzzel van ca 2000 stukjes.<\/p><p><\/p><p>Deze puzzels zijn complexer om te produceren en dus wat hoger geprijsd. <\/p>",
+            "text": "<p>De Chaos puzzels zijn een echte uitdaging voor gevorderde puzzelaars of mensen die een uitdaging zoeken. Reken op meerder dagen of zelfs weken werk!.   Een chaos puzzel van 300 stukjes is qua moeilijkheid vergelijkbaar met een reguliere legpuzzel van ca 2000 stukjes.<\/p><p>Deze puzzels zijn complexer om te produceren en wat hoger geprijsd. <\/p>",
             "link_label": "",
             "link": ""
           }
@@ -170,12 +170,12 @@
       "settings": {
         "title": "Winkelpresentatie",
         "heading_size": "h1",
-        "description": "<p>Met het retail display van Kaboomlaser heb je een mooie manier om de puzzels te presenteren.  De zakjes van de puzzels passen netjes in het display en het display is gemaakt van hetzelfde hout als de puzzels. <\/p>",
+        "description": "<p>Met het retail display van Kaboomlaser heb je een mooie manier om de puzzels te presenteren.  De zakjes van de puzzels passen netjes in het display en het display is gemaakt van hetzelfde hout als de puzzels. <\/p><p>Voorbeeldpuzzels kunnen apart besteld worden. Dit zijn puzzels waarvan de stukjes vast zitten. Zo kan de klant goed zien wat de afmetingen van de puzzels zijn en hoe de stukjes eruit zien.  Deze voorbeelden kunnen eenvoudig op de display geschoven worden.<\/p>",
         "show_description": false,
         "description_style": "body",
         "collection": "b2b-displays",
         "products_to_show": 4,
-        "columns_desktop": 4,
+        "columns_desktop": 2,
         "full_width": false,
         "show_view_all": true,
         "view_all_style": "solid",
