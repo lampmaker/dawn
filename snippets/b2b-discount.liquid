@@ -1,4 +1,5 @@
-  {% for tag in 'PRO30,PRO40,PRO50'|split: ',' %}
+{% assign TAGS ='PRO30,PRO40,PRO50'|split: ',' %}
+  {% for tag in TAGS %}
   {% if customer.tags contains tag %}
      {%- assign nr=tag | remove:"PRO"-%}    
      {{ nr }}
