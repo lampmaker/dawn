@@ -199,6 +199,7 @@
     },
     "e4f6e9d8-46d7-4b3b-a2c7-6174c122cf72": {
       "type": "custom-liquid",
+      "disabled": true,
       "settings": {
         "custom_liquid": "{% render \"b2b-discount\" show_customer:true%}",
         "color_scheme": "background-1",
