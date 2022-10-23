@@ -65,7 +65,6 @@
     },
     "4fa91e1f-9404-4835-bd96-aa0c05960100": {
       "type": "multicolumn",
-      "disabled": true,
       "blocks": {
         "template--14477939802217__4fa91e1f-9404-4835-bd96-aa0c05960100-1666516669a2355768-0": {
           "type": "column",
@@ -75,26 +74,36 @@
             "link_label": "",
             "link": ""
           }
+        },
+        "c36e2872-12be-4722-afe3-dad4cbc91fc4": {
+          "type": "column",
+          "settings": {
+            "title": "",
+            "text": "",
+            "link_label": "",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "template--14477939802217__4fa91e1f-9404-4835-bd96-aa0c05960100-1666516669a2355768-0"
+        "template--14477939802217__4fa91e1f-9404-4835-bd96-aa0c05960100-1666516669a2355768-0",
+        "c36e2872-12be-4722-afe3-dad4cbc91fc4"
       ],
       "settings": {
         "title": "KIES JE UITDAGING",
         "heading_size": "h2",
-        "image_width": "full",
+        "image_width": "third",
         "image_ratio": "adapt",
         "columns_desktop": 1,
         "column_alignment": "left",
-        "background_style": "primary",
+        "background_style": "none",
         "button_label": "",
         "button_link": "",
         "color_scheme": "background-1",
         "columns_mobile": "1",
         "swipe_on_mobile": false,
         "padding_top": 0,
-        "padding_bottom": 4
+        "padding_bottom": 0
       }
     },
     "16566602477b777835": {
@@ -139,7 +148,7 @@
         "c04cdcda-c7f1-4ce6-8717-bc8b933ac439"
       ],
       "settings": {
-        "title": "KIES JE UITDAGING",
+        "title": "",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 5,
