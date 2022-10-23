@@ -88,7 +88,7 @@
         "template--14372821139561__0644a039-5367-48cb-b350-ac2779046a36-16655697941681f721-2": {
           "type": "button",
           "settings": {
-            "button_label": "Ik wil alle puzzels zien",
+            "button_label": "laat mij alle puzzels zien",
             "button_link": "shopify:\/\/collections\/houten-puzzels-voor-volwassenen",
             "button_style_secondary": false
           }
@@ -174,7 +174,7 @@
         "14317d6f-cb66-4e6a-a941-bdb3504b227d"
       ],
       "settings": {
-        "title": "PUZZELS GESORTEERD OP MOEILIJKHEID",
+        "title": "KIES JOUW UITDAGING",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 5,
@@ -256,7 +256,7 @@
         "809c22a4-f519-4a87-8b0d-00d81adab1b4"
       ],
       "settings": {
-        "title": "PUZZEL COLLECTIES OP ONDERWERP",
+        "title": "KIES JE FAVORIETE ONDERWERP",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 5,
