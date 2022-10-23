@@ -53,6 +53,7 @@
       "settings": {
         "title": "KIES JE FAVORIETE ONDERWERP",
         "heading_size": "h2",
+        "description": "",
         "image_ratio": "square",
         "columns_desktop": 5,
         "color_scheme": "background-1",
@@ -65,6 +66,7 @@
     },
     "4fa91e1f-9404-4835-bd96-aa0c05960100": {
       "type": "multicolumn",
+      "disabled": true,
       "blocks": {
         "template--14477939802217__4fa91e1f-9404-4835-bd96-aa0c05960100-1666516669a2355768-0": {
           "type": "column",
@@ -148,8 +150,9 @@
         "c04cdcda-c7f1-4ce6-8717-bc8b933ac439"
       ],
       "settings": {
-        "title": "",
+        "title": "KIES JE UITDAGING",
         "heading_size": "h2",
+        "description": "",
         "image_ratio": "square",
         "columns_desktop": 5,
         "color_scheme": "background-1",
@@ -191,6 +194,7 @@
       "settings": {
         "title": "STIJLEN",
         "heading_size": "h2",
+        "description": "",
         "image_ratio": "square",
         "columns_desktop": 4,
         "color_scheme": "background-1",
