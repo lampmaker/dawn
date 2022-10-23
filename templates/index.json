@@ -88,7 +88,7 @@
         "template--14372821139561__0644a039-5367-48cb-b350-ac2779046a36-16655697941681f721-2": {
           "type": "button",
           "settings": {
-            "button_label": "laat mij alle puzzels zien",
+            "button_label": "LAAT ME ALLE PUZZELS ZIEN",
             "button_link": "shopify:\/\/collections\/houten-puzzels-voor-volwassenen",
             "button_style_secondary": false
           }
@@ -96,7 +96,7 @@
         "c499e981-e464-48ad-8107-5b60490146de": {
           "type": "button",
           "settings": {
-            "button_label": "Ik zoek iets anders",
+            "button_label": "IK ZOEK IETS ANDERS",
             "button_link": "\/#midpage",
             "button_style_secondary": true
           }
@@ -192,7 +192,7 @@
         "1649668238aeae6373-0": {
           "type": "heading",
           "settings": {
-            "heading": "Lees waarom onze klanten zo enthousiast zijn!",
+            "heading": "VELE ENTHOUSIASTE KLANTEN GINGEN JE VOOR",
             "heading_size": "h2"
           }
         },
@@ -310,7 +310,7 @@
     "1649668406d7e4cb3b": {
       "type": "featured-collection",
       "settings": {
-        "title": "NIEUW IN DE COLLECTIE",
+        "title": "BEKIJK ONZE NIEUWSTE PRODUCTEN",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -450,6 +450,7 @@
     },
     "16542548561e97295e": {
       "type": "collection-list",
+      "disabled": true,
       "blocks": {
         "16542548569e2ec004-0": {
           "type": "featured_collection",
@@ -483,7 +484,7 @@
         "eb0c8661-10c5-47cc-bc00-4622d63302ab"
       ],
       "settings": {
-        "title": "SNEL EEN CADEAUTJE NODIG?",
+        "title": "GEWOON SNEL EEN CADEAUTJE NODIG?",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 4,
@@ -501,7 +502,7 @@
         "16496685893bce17af-0": {
           "type": "heading",
           "settings": {
-            "heading": "MAANDELIJKS 5€ SHOPTEGOED",
+            "heading": "KRIJG MAANDELIJKS 5€ SHOPTEGOED",
             "heading_size": "h2"
           }
         },
@@ -560,7 +561,7 @@
     "1649668655e3dfa459": {
       "type": "featured-collection",
       "settings": {
-        "title": "ONZE POPULAIRSTE WANDDECORATIES",
+        "title": "BEKIJK ONZE POPULAIRSTE WANDDECORATIES",
         "heading_size": "h2",
         "description": "",
         "show_description": false,
@@ -612,7 +613,7 @@
         "164966866086878a89-2"
       ],
       "settings": {
-        "title": "HOUTEN MUURDECORATIES",
+        "title": "BEKIJK DE HOUTEN MUURDECORATIES",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -680,7 +681,7 @@
         "1649668749f7633170-2"
       ],
       "settings": {
-        "title": "OVERIGE PRODUCTEN",
+        "title": "BEKIJK ONZE ANDERE PRODUCTEN",
         "heading_size": "h2",
         "image_ratio": "square",
         "columns_desktop": 3,
@@ -698,7 +699,7 @@
         "1649669181419ebf03-0": {
           "type": "heading",
           "settings": {
-            "heading": "DUURZAME CADEAUS",
+            "heading": "DIT VINDEN WIJ BELANGRIJK",
             "heading_size": "h2"
           }
         },
@@ -799,7 +800,7 @@
         "1649670190af9f1755-0": {
           "type": "heading",
           "settings": {
-            "heading": "OVER ONS",
+            "heading": "WIE ZIJN WIJ?",
             "heading_size": "h2"
           }
         },
@@ -813,7 +814,7 @@
         "1649670190af9f1755-2": {
           "type": "button",
           "settings": {
-            "button_label": "Contact",
+            "button_label": "Neem contact met ons op",
             "button_link": "shopify:\/\/pages\/contact"
           }
         }
