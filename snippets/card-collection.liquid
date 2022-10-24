@@ -67,8 +67,8 @@
                 {%- if collection_alt_title != blank -%}
                        {{- collection_alt_title| escape -}}
                   {% else %}
-                        {%- if card_collection.custom.alt_title != blank -%}
-                           {{- card_collection.custom.alt_title| escape -}}
+                        {%- if card_collection.metafields.custom.alt_title != blank -%}
+                           {{- card_collection.metafields.custom.alt_title| escape -}}
                         {% else %}
                           {{- card_collection.title | escape -}}
                           {% endif %}
