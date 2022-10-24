@@ -461,7 +461,7 @@
         "complete_your_purchase_title": "Je aankoop voltooien"
       },
       "alternative_payment_method_banner": {
-        "or": "<strong>Vul hieronder je gegevens in als je op andere wijze wil betalen.<\/strong>"
+        "or": "Vul hieronder je gegevens in als je op andere wijze wil betalen."
       }
     }
   }
