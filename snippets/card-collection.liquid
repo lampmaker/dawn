@@ -6,7 +6,7 @@
     - media_aspect_ratio: {String} Size of the product image card. Values are "square" and "portrait". Default is "square" (optional)
     - columns: {Number} 
     - extend_height: {Boolean} Card height extends to available container space. Default: false (optional)
-    
+    - collection_alt_title: alternative title.  (if empty, collection title will be used)
     Usage:
     {% render 'card-collection' %}
 {% endcomment %}
@@ -64,7 +64,11 @@
           <h3 class="card__heading">
             <a{% if card_collection == blank %} role="link" aria-disabled="true"{% else %} href="{{ card_collection.url }}"{% endif %} class="full-unstyled-link">
               {%- if card_collection.title != blank -%}
+                {%- if collection_alt_title != blank -%}
+                   {{- collection_alt_title| escape -}}
+                  {% else %}
                 {{- card_collection.title | escape -}}
+                  {% endif %}
               {%- else -%}
                 {{ 'onboarding.collection_title' | t }}
               {%- endif -%}
