@@ -138,31 +138,36 @@
         "1649667235d31393c6-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "makkelijkste-puzzels"
+            "collection": "makkelijkste-puzzels",
+            "collection_alt_title": ""
           }
         },
         "1649667235d31393c6-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "pittige-puzzels"
+            "collection": "pittige-puzzels",
+            "collection_alt_title": ""
           }
         },
         "1649667235d31393c6-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "moeilijke-puzzels"
+            "collection": "moeilijke-puzzels",
+            "collection_alt_title": ""
           }
         },
         "8194abdd-a114-41e4-ac5d-67566c6aeb64": {
           "type": "featured_collection",
           "settings": {
-            "collection": "hele-moeilijke-puzzels"
+            "collection": "hele-moeilijke-puzzels",
+            "collection_alt_title": ""
           }
         },
         "14317d6f-cb66-4e6a-a941-bdb3504b227d": {
           "type": "featured_collection",
           "settings": {
-            "collection": "extreem-moeilijke-puzzels"
+            "collection": "extreem-moeilijke-puzzels",
+            "collection_alt_title": ""
           }
         }
       },
@@ -221,31 +226,36 @@
         "166392362133cb7562-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "dieren-puzzels"
+            "collection": "dieren-puzzels",
+            "collection_alt_title": ""
           }
         },
         "166392362133cb7562-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "bomen-en-planten-puzzels"
+            "collection": "bomen-en-planten-puzzels",
+            "collection_alt_title": ""
           }
         },
         "166392362133cb7562-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "houten-puzzels-van-het-menselijk-lichaam"
+            "collection": "houten-puzzels-van-het-menselijk-lichaam",
+            "collection_alt_title": ""
           }
         },
         "31d59279-c790-4e60-a3ae-27c4434482b4": {
           "type": "featured_collection",
           "settings": {
-            "collection": "abstracte-puzzels"
+            "collection": "abstracte-puzzels",
+            "collection_alt_title": ""
           }
         },
         "809c22a4-f519-4a87-8b0d-00d81adab1b4": {
           "type": "featured_collection",
           "settings": {
-            "collection": "houten-puzzels-in-de-vorm-van-een-eiland"
+            "collection": "houten-puzzels-in-de-vorm-van-een-eiland",
+            "collection_alt_title": ""
           }
         }
       },
@@ -457,25 +467,29 @@
         "16542548569e2ec004-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cadeaus-onder-de-15"
+            "collection": "cadeaus-onder-de-15",
+            "collection_alt_title": ""
           }
         },
         "16542548569e2ec004-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cadeaus-onder-de-25"
+            "collection": "cadeaus-onder-de-25",
+            "collection_alt_title": ""
           }
         },
         "16542548569e2ec004-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cadeaus-onder-de-35"
+            "collection": "cadeaus-onder-de-35",
+            "collection_alt_title": ""
           }
         },
         "eb0c8661-10c5-47cc-bc00-4622d63302ab": {
           "type": "featured_collection",
           "settings": {
-            "collection": "cadeaus-tot-50"
+            "collection": "cadeaus-tot-50",
+            "collection_alt_title": ""
           }
         }
       },
@@ -594,25 +608,29 @@
         "164966866086878a89-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "wanddecoratie-dieren"
+            "collection": "wanddecoratie-dieren",
+            "collection_alt_title": ""
           }
         },
         "164966866086878a89-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "honden"
+            "collection": "honden",
+            "collection_alt_title": ""
           }
         },
         "164966866086878a89-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "wanddecoratie-natuur"
+            "collection": "wanddecoratie-natuur",
+            "collection_alt_title": ""
           }
         },
         "c2516c68-6a9c-45a0-bc24-59458f44d1b5": {
           "type": "featured_collection",
           "settings": {
-            "collection": "houten-wanddecoratie"
+            "collection": "houten-wanddecoratie",
+            "collection_alt_title": "Alle wanddecoratie"
           }
         }
       },
@@ -670,19 +688,22 @@
         "1649668749f7633170-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": "waxinelichthouders"
+            "collection": "waxinelichthouders",
+            "collection_alt_title": ""
           }
         },
         "1649668749f7633170-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": "glasonderzetters"
+            "collection": "glasonderzetters",
+            "collection_alt_title": ""
           }
         },
         "1649668749f7633170-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": "decoratie-plateaus"
+            "collection": "decoratie-plateaus",
+            "collection_alt_title": ""
           }
         }
       },
