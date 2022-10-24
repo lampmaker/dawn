@@ -139,35 +139,35 @@
           "type": "featured_collection",
           "settings": {
             "collection": "makkelijkste-puzzels",
-            "collection_alt_title": ""
+            "collection_alt_title": "Moeilijkheidsgraad: ⭐"
           }
         },
         "1649667235d31393c6-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "pittige-puzzels",
-            "collection_alt_title": ""
+            "collection_alt_title": "Moeilijkheidsgraad: ⭐⭐"
           }
         },
         "1649667235d31393c6-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "moeilijke-puzzels",
-            "collection_alt_title": ""
+            "collection_alt_title": "Moeilijkheidsgraad: ⭐⭐⭐"
           }
         },
         "8194abdd-a114-41e4-ac5d-67566c6aeb64": {
           "type": "featured_collection",
           "settings": {
             "collection": "hele-moeilijke-puzzels",
-            "collection_alt_title": ""
+            "collection_alt_title": "Moeilijkheidsgraad: ⭐⭐⭐⭐"
           }
         },
         "14317d6f-cb66-4e6a-a941-bdb3504b227d": {
           "type": "featured_collection",
           "settings": {
             "collection": "extreem-moeilijke-puzzels",
-            "collection_alt_title": ""
+            "collection_alt_title": "Moeilijkheidsgraad: ⭐⭐⭐⭐⭐"
           }
         }
       },
@@ -192,34 +192,6 @@
         "padding_bottom": 36
       }
     },
-    "1649668238f20adca1": {
-      "type": "rich-text-MK",
-      "blocks": {
-        "1649668238aeae6373-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "VELE ENTHOUSIASTE KLANTEN GINGEN JE VOOR",
-            "heading_size": "h2"
-          }
-        },
-        "36542612-c6b3-43e8-b812-223500776566": {
-          "type": "liquid",
-          "settings": {
-            "custom_liquid": "{% if shop.locale == 'de' %}\n[WEBWINKELKEURWIDGET layout=new_default theme=light color=#ec008b show=yes view=list amount=6 width=auto width_amount=280px height=250px interval=5000 language=deu] \n{% else %}\n[WEBWINKELKEURWIDGET layout=new_default theme=light color=#ec008b show=yes view=list amount=6 width=auto width_amount=280px height=250px interval=5000 language=nld]\n{% endif %}"
-          }
-        }
-      },
-      "block_order": [
-        "1649668238aeae6373-0",
-        "36542612-c6b3-43e8-b812-223500776566"
-      ],
-      "settings": {
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
-      }
-    },
     "1663923621ababe628": {
       "type": "collection-list",
       "blocks": {
@@ -227,7 +199,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "dieren-puzzels",
-            "collection_alt_title": ""
+            "collection_alt_title": "Dieren puzzels"
           }
         },
         "166392362133cb7562-1": {
@@ -255,7 +227,7 @@
           "type": "featured_collection",
           "settings": {
             "collection": "houten-puzzels-in-de-vorm-van-een-eiland",
-            "collection_alt_title": ""
+            "collection_alt_title": "Eiland puzzels"
           }
         }
       },
@@ -319,8 +291,37 @@
         "padding_bottom": 28
       }
     },
+    "1649668238f20adca1": {
+      "type": "rich-text-MK",
+      "blocks": {
+        "1649668238aeae6373-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "VELE ENTHOUSIASTE KLANTEN GINGEN JE VOOR",
+            "heading_size": "h2"
+          }
+        },
+        "36542612-c6b3-43e8-b812-223500776566": {
+          "type": "liquid",
+          "settings": {
+            "custom_liquid": "{% if shop.locale == 'de' %}\n[WEBWINKELKEURWIDGET layout=new_default theme=light color=#ec008b show=yes view=list amount=6 width=auto width_amount=280px height=250px interval=5000 language=deu] \n{% else %}\n[WEBWINKELKEURWIDGET layout=new_default theme=light color=#ec008b show=yes view=list amount=6 width=auto width_amount=280px height=250px interval=5000 language=nld]\n{% endif %}"
+          }
+        }
+      },
+      "block_order": [
+        "1649668238aeae6373-0",
+        "36542612-c6b3-43e8-b812-223500776566"
+      ],
+      "settings": {
+        "color_scheme": "background-2",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "1649668406d7e4cb3b": {
       "type": "featured-collection",
+      "disabled": true,
       "settings": {
         "title": "BEKIJK ONZE NIEUWSTE PRODUCTEN",
         "heading_size": "h2",
@@ -460,6 +461,40 @@
         "padding_bottom": 0
       }
     },
+    "16496685897fd108d0": {
+      "type": "newsletter",
+      "blocks": {
+        "16496685893bce17af-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "KRIJG MAANDELIJKS 5€ SHOPTEGOED",
+            "heading_size": "h2"
+          }
+        },
+        "16496685893bce17af-1": {
+          "type": "paragraph",
+          "settings": {
+            "text": "<p>Wil je ook op de hoogte blijven van nieuwe producten en acties? Meld je dan aan voor de nieuwsbrief. Alle abonnees krijgen elke maand 5€ shoptegoed!<\/p>"
+          }
+        },
+        "16496685893bce17af-2": {
+          "type": "email_form",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "16496685893bce17af-0",
+        "16496685893bce17af-1",
+        "16496685893bce17af-2"
+      ],
+      "settings": {
+        "color_scheme": "background-1",
+        "full_width": true,
+        "padding_top": 40,
+        "padding_bottom": 52
+      }
+    },
     "16542548561e97295e": {
       "type": "collection-list",
       "disabled": true,
@@ -511,40 +546,6 @@
         "swipe_on_mobile": true,
         "padding_top": 36,
         "padding_bottom": 36
-      }
-    },
-    "16496685897fd108d0": {
-      "type": "newsletter",
-      "blocks": {
-        "16496685893bce17af-0": {
-          "type": "heading",
-          "settings": {
-            "heading": "KRIJG MAANDELIJKS 5€ SHOPTEGOED",
-            "heading_size": "h2"
-          }
-        },
-        "16496685893bce17af-1": {
-          "type": "paragraph",
-          "settings": {
-            "text": "<p>Wil je ook op de hoogte blijven van nieuwe producten en acties? Meld je dan aan voor de nieuwsbrief. Alle abonnees krijgen elke maand 5€ shoptegoed!<\/p>"
-          }
-        },
-        "16496685893bce17af-2": {
-          "type": "email_form",
-          "settings": {
-          }
-        }
-      },
-      "block_order": [
-        "16496685893bce17af-0",
-        "16496685893bce17af-1",
-        "16496685893bce17af-2"
-      ],
-      "settings": {
-        "color_scheme": "background-2",
-        "full_width": true,
-        "padding_top": 40,
-        "padding_bottom": 52
       }
     },
     "1649758760d1bcd319": {
@@ -884,16 +885,16 @@
     "0644a039-5367-48cb-b350-ac2779046a36",
     "1663926058b544aaf0",
     "1649667235715cd7e9",
-    "1649668238f20adca1",
     "1663923621ababe628",
     "16566621121d4f3dc9",
+    "1649668238f20adca1",
     "1649668406d7e4cb3b",
     "1652001173fcadcd32",
     "165061494580935e9b",
     "164966755293b90939",
     "35cceac9-dfe9-4805-a11a-04168ee37e91",
-    "16542548561e97295e",
     "16496685897fd108d0",
+    "16542548561e97295e",
     "1649758760d1bcd319",
     "1649668655e3dfa459",
     "1649668660491caca0",
