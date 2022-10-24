@@ -608,19 +608,26 @@
           "settings": {
             "collection": "wanddecoratie-natuur"
           }
+        },
+        "c2516c68-6a9c-45a0-bc24-59458f44d1b5": {
+          "type": "featured_collection",
+          "settings": {
+            "collection": "houten-wanddecoratie"
+          }
         }
       },
       "block_order": [
         "164966866086878a89-0",
         "164966866086878a89-1",
-        "164966866086878a89-2"
+        "164966866086878a89-2",
+        "c2516c68-6a9c-45a0-bc24-59458f44d1b5"
       ],
       "settings": {
         "title": "BEKIJK DE HOUTEN MUURDECORATIES",
         "heading_size": "h2",
         "description": "",
         "image_ratio": "square",
-        "columns_desktop": 3,
+        "columns_desktop": 4,
         "color_scheme": "background-1",
         "show_view_all": false,
         "columns_mobile": "2",
