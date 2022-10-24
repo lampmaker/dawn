@@ -464,7 +464,8 @@
         "or": "Vul hieronder je gegevens in als je op andere wijze wil betalen."
       },
       "marketing": {
-        "accept_marketing_checkbox_label": "Ik blijf graag op de hoogte van speciale aanbiedingen."
+        "accept_marketing_checkbox_label": "Ik blijf graag op de hoogte van speciale aanbiedingen.",
+        "pending_accept_marketing_checkbox_label": "Je moet nog één stap zetten om je aanmelding te bevestigen, kijk in je inbox!"
       }
     }
   }
