@@ -139,35 +139,35 @@
           "type": "featured_collection",
           "settings": {
             "collection": "makkelijkste-puzzels",
-            "collection_alt_title": "Moeilijkheidsgraad: ⭐"
+            "collection_alt_title": ""
           }
         },
         "1649667235d31393c6-1": {
           "type": "featured_collection",
           "settings": {
             "collection": "pittige-puzzels",
-            "collection_alt_title": "Moeilijkheidsgraad: ⭐⭐"
+            "collection_alt_title": ""
           }
         },
         "1649667235d31393c6-2": {
           "type": "featured_collection",
           "settings": {
             "collection": "moeilijke-puzzels",
-            "collection_alt_title": "Moeilijkheidsgraad: ⭐⭐⭐"
+            "collection_alt_title": ""
           }
         },
         "8194abdd-a114-41e4-ac5d-67566c6aeb64": {
           "type": "featured_collection",
           "settings": {
             "collection": "hele-moeilijke-puzzels",
-            "collection_alt_title": "Moeilijkheidsgraad: ⭐⭐⭐⭐"
+            "collection_alt_title": ""
           }
         },
         "14317d6f-cb66-4e6a-a941-bdb3504b227d": {
           "type": "featured_collection",
           "settings": {
             "collection": "extreem-moeilijke-puzzels",
-            "collection_alt_title": "Moeilijkheidsgraad: ⭐⭐⭐⭐⭐"
+            "collection_alt_title": ""
           }
         }
       },
