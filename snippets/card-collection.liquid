@@ -93,10 +93,14 @@
           <h3 class="card__heading">
             <a href="{{ card_collection.url }}" class="full-unstyled-link">
               {%- if card_collection.title != blank -%}
-                 {%- if collection_alt_title != blank -%}
-                   {{- collection_alt_title| escape -}}
+                {%- if collection_alt_title != blank -%}
+                       {{- collection_alt_title| escape -}}
                   {% else %}
-                {{- card_collection.title | escape -}}
+                        {%- if card_collection.metafields.custom.alt_title.value != blank -%}
+                           {{- card_collection.metafields.custom.alt_title.value| escape -}}
+                        {% else %}
+                          {{- card_collection.title | escape -}}
+                          {% endif %}
                   {% endif %}
               {%- else -%}
                 {{ 'onboarding.collection_title' | t }}
