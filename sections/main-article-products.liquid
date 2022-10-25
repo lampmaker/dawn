@@ -62,6 +62,7 @@
                   {% if next %}
                    {% if item != currentitem %}
                       {% assign currentitem = item %}
+                     {% assign next=false %}
                       {% break %}
                 {% endif %}
                     {% endif %}
