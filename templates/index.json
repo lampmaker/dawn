@@ -252,8 +252,36 @@
         "padding_bottom": 4
       }
     },
+    "1652001173fcadcd32": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "code+wood",
+        "heading_size": "h1",
+        "description": "<p><strong>code+wood <\/strong>is een hele bijzondere collectie houten puzzels.  De patronen van de puzzels worden automatisch gegenereerd. Dat betekent dat elke puzzel die geproduceerd wordt, een uniek ontwerp heeft. Kies uit een van de standaard ontwerpen of kies voor de <strong>ARTIST <\/strong>serie, waarbij je een unieke puzzel krijgt en geen twee puzzels hetzelfde zijn.<\/p>",
+        "show_description": false,
+        "description_style": "subtitle",
+        "collection": "codeandwood",
+        "products_to_show": 5,
+        "columns_desktop": 5,
+        "full_width": false,
+        "show_view_all": true,
+        "view_all_style": "solid",
+        "enable_desktop_slider": false,
+        "color_scheme": "background-1",
+        "image_ratio": "square",
+        "show_secondary_image": true,
+        "show_vendor": false,
+        "show_rating": false,
+        "enable_quick_add": false,
+        "columns_mobile": "2",
+        "swipe_on_mobile": true,
+        "padding_top": 16,
+        "padding_bottom": 20
+      }
+    },
     "c19e6414-15b7-4b3f-b3d5-bd44ac4581ea": {
       "type": "image-with-text",
+      "disabled": true,
       "blocks": {
         "template--14372821139561__c19e6414-15b7-4b3f-b3d5-bd44ac4581ea-1666682659688cefeb-0": {
           "type": "heading",
@@ -298,6 +326,7 @@
     },
     "16566621121d4f3dc9": {
       "type": "rich-text",
+      "disabled": true,
       "blocks": {
         "16566621122b2bed01-0": {
           "type": "heading",
@@ -389,34 +418,6 @@
         "swipe_on_mobile": true,
         "padding_top": 16,
         "padding_bottom": 16
-      }
-    },
-    "1652001173fcadcd32": {
-      "type": "featured-collection",
-      "disabled": true,
-      "settings": {
-        "title": "code+wood",
-        "heading_size": "h1",
-        "description": "<p><strong>code+wood <\/strong>is een hele bijzondere collectie houten puzzels.  De patronen van de puzzels worden automatisch gegenereerd. Dat betekent dat elke puzzel die geproduceerd wordt, een uniek ontwerp heeft. Kies uit een van de standaard ontwerpen of kies voor de <strong>ARTIST <\/strong>serie, waarbij je een unieke puzzel krijgt en geen twee puzzels hetzelfde zijn.<\/p>",
-        "show_description": false,
-        "description_style": "subtitle",
-        "collection": "codeandwood",
-        "products_to_show": 4,
-        "columns_desktop": 4,
-        "full_width": false,
-        "show_view_all": true,
-        "view_all_style": "solid",
-        "enable_desktop_slider": false,
-        "color_scheme": "background-1",
-        "image_ratio": "square",
-        "show_secondary_image": true,
-        "show_vendor": false,
-        "show_rating": false,
-        "enable_quick_add": false,
-        "columns_mobile": "1",
-        "swipe_on_mobile": false,
-        "padding_top": 36,
-        "padding_bottom": 84
       }
     },
     "165061494580935e9b": {
@@ -930,11 +931,11 @@
     "1663926058b544aaf0",
     "1649667235715cd7e9",
     "1663923621ababe628",
+    "1652001173fcadcd32",
     "c19e6414-15b7-4b3f-b3d5-bd44ac4581ea",
     "16566621121d4f3dc9",
     "1649668238f20adca1",
     "1649668406d7e4cb3b",
-    "1652001173fcadcd32",
     "165061494580935e9b",
     "164966755293b90939",
     "35cceac9-dfe9-4805-a11a-04168ee37e91",
