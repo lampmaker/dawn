@@ -173,6 +173,50 @@
         "padding_bottom": 36
       }
     },
+    "5e17887b-f211-4f3e-ae85-cf1cee459c31": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--14477939802217__5e17887b-f211-4f3e-ae85-cf1cee459c31-1666682310f81034c0-0": {
+          "type": "heading",
+          "settings": {
+            "heading": "CODE+WOOD GENERATIEVE PUZZELS",
+            "heading_size": "h2"
+          }
+        },
+        "template--14477939802217__5e17887b-f211-4f3e-ae85-cf1cee459c31-1666682310f81034c0-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Heb je liever een puzzel met wat kleur? Bekijk dan onze  unieke  code+wood collectie. Bijzondere puzzels met abstracte patronen. <\/p>",
+            "text_style": "body"
+          }
+        },
+        "template--14477939802217__5e17887b-f211-4f3e-ae85-cf1cee459c31-1666682310f81034c0-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "GA NAAR DE COLLECTIE",
+            "button_link": "shopify:\/\/collections\/codeandwood"
+          }
+        }
+      },
+      "block_order": [
+        "template--14477939802217__5e17887b-f211-4f3e-ae85-cf1cee459c31-1666682310f81034c0-0",
+        "template--14477939802217__5e17887b-f211-4f3e-ae85-cf1cee459c31-1666682310f81034c0-1",
+        "template--14477939802217__5e17887b-f211-4f3e-ae85-cf1cee459c31-1666682310f81034c0-2"
+      ],
+      "settings": {
+        "image": "shopify:\/\/shop_images\/20220506_161301-COLLAGE.jpg",
+        "height": "small",
+        "desktop_image_width": "medium",
+        "layout": "text_first",
+        "desktop_content_position": "top",
+        "desktop_content_alignment": "left",
+        "content_layout": "no-overlap",
+        "color_scheme": "background-2",
+        "mobile_content_alignment": "left",
+        "padding_top": 36,
+        "padding_bottom": 36
+      }
+    },
     "16566603098cf0cf88": {
       "type": "collection-list",
       "disabled": true,
@@ -287,6 +331,7 @@
     "165665937033685931",
     "4fa91e1f-9404-4835-bd96-aa0c05960100",
     "16566602477b777835",
+    "5e17887b-f211-4f3e-ae85-cf1cee459c31",
     "16566603098cf0cf88",
     "1656659537f09092b0",
     "product-grid",
