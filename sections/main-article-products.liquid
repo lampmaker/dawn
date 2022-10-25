@@ -45,11 +45,11 @@
             {%- endif -%}
           </header>
 
-
+    {% assign a1 = article.content %}     
     {% for item in article.metafields.custom.productlist.value %}
-        {{item.title}}
-      {% else %}
-      /-/
+      {% assign prod = item.title %}
+      {% assign a1 = a1 | replace :"<!--product-->", prod %}    
+      
     {% endfor %}
 
 
