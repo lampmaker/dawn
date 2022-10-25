@@ -62,6 +62,9 @@
            {% assign sections = article.content | split:'<!--product-->'%}     
            {% for section in sections %}
              {{ section }}
+             {%  capture product%}
+               {% cycle article.metafields.custom.productlist.value %}
+              {% endcapture %}
              
              {% endfor %}
           </div>
