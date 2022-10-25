@@ -57,10 +57,12 @@
                 {% assign next=false %}
                  {% for item in article.metafields.custom.productlist.value %}
                    {% if item == currentitem %}                     {% assign next=true %}                     {% endif %}
-                  {% if item != currentitem %}
+                  {% if next %}
+                   {% if item != currentitem %}
                       {% assign currentitem = item %}
                       {% break %}
                 {% endif %}
+                    {% endif %}
                 {% endfor %}
              {{ currentitem.title }}             
              {% endfor %}
