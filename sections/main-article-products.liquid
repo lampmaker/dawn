@@ -101,6 +101,18 @@
               </a>
             </h3>
           </div>
+        <div class="card__badge {{ settings.badge_position }}">
+            
+            {%- if currentitem.available == false -%}
+              <span class="badge badge--bottom-left color-{{ settings.sold_out_badge_color_scheme }}">{{ 'products.product.sold_out' | t }}</span>
+            {%- elsif currentitem.compare_at_price > currentitem.price and currentitem.available -%}
+              <span class="badge badge--bottom-left color-{{ settings.sale_badge_color_scheme }}">{{ 'products.product.on_sale' | t }}</span>
+              {%- else %}
+            {%- if card_product.metafields.my_fields.moeilijkheid -%}
+              <span >{{currentitem.metafields.my_fields.moeilijkheid }} </span>
+                  {%- endif %}
+            {%- endif -%}
+          </div>
  </div>
 
 {% comment %}
