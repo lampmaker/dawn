@@ -45,13 +45,10 @@
             {%- endif -%}
           </header>
 
-    {% assign a1 = article.content %}     
+  
     {% for item in article.metafields.custom.productlist.value %}
       {% assign prod = item.title %}
-      {% assign a1 = a1 | replace :"<!--product-->", prod %}    
-      
     {% endfor %}
-
 
 
 
@@ -62,7 +59,11 @@
   
         {%- when 'content'-%}
           <div class="article-template__content page-width page-width--narrow rte" itemprop="articleBody" {{ block.shopify_attributes }}>
-              {{ a1}}
+           {% assign sections = article.content | split:'<!--product-->'%}     
+           {% for section in sections %}
+             {{ section }}
+             
+             {% endfor %}
           </div>
 
         {%- when 'share' -%}
