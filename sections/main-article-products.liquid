@@ -46,8 +46,7 @@
           </header>
 
     {% assign currentitem = "x" %}
-
-  
+    {% assign next=true %}
         {%- when 'content'-%}
            <div class="article-template__content page-width page-width--narrow rte" itemprop="articleBody" {{ block.shopify_attributes }}>
            {% assign sections = article.content | split:'<!--product-->'%}     
@@ -56,13 +55,14 @@
                    {% comment %}
                        next section makes sure to iterate through the items in the product list.
                    {% endcomment %}
-                      {% assign next=false %}
+                      
                       {% for item in article.metafields.custom.productlist.value %}
                          {% if item == currentitem %}
                            {% assign next=true %} 
                          {% else %}
                               {% if next %}                                            
                                    {% assign currentitem = item %}
+                                {% assign next=false %}
                                    {% break %}
                              {% endif %}
                         {% endif %}
