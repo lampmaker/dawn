@@ -54,8 +54,9 @@
            {% assign sections = article.content | split:'<!--product-->'%}     
            {% for section in sections %}
              {{ section }}
-             
+                {% assign next=false %}
                  {% for item in article.metafields.custom.productlist.value %}
+                   {% if item == currentitem %}                     {% assign next=true %}                     {% endif %}
                   {% if item != currentitem %}
                       {% assign currentitem = item %}
                       {% break %}
