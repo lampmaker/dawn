@@ -63,7 +63,7 @@
            {% for section in sections %}
              {{ section }}
        
-               {% cycle article.metafields.custom.productlist.value.title %}
+               {{   article.metafields.custom.productlist.value.title |slice:0}}}
        
 
              
