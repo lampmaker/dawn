@@ -49,6 +49,8 @@
     {% for product in article.metafields.custom.productlist %}
       
     {{   product}}
+      {% else %}
+      /-/
     {% endfor %}
 
 
