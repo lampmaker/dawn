@@ -48,6 +48,7 @@
   
     {% for item in article.metafields.custom.productlist.value %}
       {% assign prod = item.title %}
+      {{ prod }}
     {% endfor %}
 
 
@@ -62,7 +63,7 @@
            {% assign sections = article.content | split:'<!--product-->'%}     
            {% for section in sections %}
              {{ section }}
-       
+             
              
        
 
