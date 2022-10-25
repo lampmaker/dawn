@@ -74,8 +74,7 @@
 
 {%- if currentitem.featured_media -%}
   <div class="card__inner ">
-          <div class="card__media">
-            
+          <div class="card__media">            
               <img
                 srcset="{%- if currentitem.featured_media.width >= 165 -%}{{ currentitem.featured_media | image_url: width: 165 }} 165w,{%- endif -%}
                   {%- if currentitem.featured_media.width >= 360 -%}{{ currentitem.featured_media | image_url: width: 360 }} 360w,{%- endif -%}
@@ -91,13 +90,19 @@
                 {% unless lazy_load == false %}loading="lazy"{% endunless %}
                 width="{{ currentitem.featured_media.width }}"
                 height="{{ currentitem.featured_media.height }}"
-              >            
-            
+              >                        
           </div>
-  </div>
+        </div>
         {%- endif -%}
-
-
+ <div class="card__content">
+          <div class="card__information">
+            <h3 class="card__heading"{% if currentitem.featured_media == nil and settings.card_style == 'standard' %} id="title-{{ section_id }}-{{ card_product.id }}"{% endif %}>
+              <a href="{{ currentitem.url }}" class="full-unstyled-link">
+                {{ currentitem.title | escape }}
+              </a>
+            </h3>
+          </div>
+ </div>
 
 {% comment %}
        //==========================================================================================================  RENDER PRODUCT
