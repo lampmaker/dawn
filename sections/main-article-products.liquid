@@ -45,10 +45,12 @@
             {%- endif -%}
           </header>
 
-  
+    {% assign currentitem = article.metafields.custom.productlist.value | first %}
     {% for item in article.metafields.custom.productlist.value %}
       {% assign prod = item.title %}
       <p>{{ prod }}</p>
+      <p>{{ currentitem.title }}</p>
+      
     {% endfor %}
 
 
