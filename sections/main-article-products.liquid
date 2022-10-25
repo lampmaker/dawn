@@ -46,18 +46,7 @@
           </header>
 
     {% assign currentitem = article.metafields.custom.productlist.value | first %}
-    {% for item in article.metafields.custom.productlist.value %}
-      {% assign prod = item.title %}
-      <p>{{ prod }}</p>
-      <p>{{ currentitem.title }}</p>
-      
-    {% endfor %}
 
-
-
-
-
-{{ article.metafields.custom.productlist.value | slice:0  }}
 
   
         {%- when 'content'-%}
@@ -66,10 +55,13 @@
            {% for section in sections %}
              {{ section }}
              
-             
-       
-
-             
+                 {% for item in article.metafields.custom.productlist.value %}
+                  {% if item != currentitem %}
+                      {% assign currentitem = item %}
+                      {% break %}
+                {% endif %}
+                {% endfor %}
+             {{ currentitem.title }}             
              {% endfor %}
           </div>
 
