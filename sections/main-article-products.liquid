@@ -46,9 +46,9 @@
           </header>
 
 {{  article.metafields.custom.productlist}}
-    {% for product in article.metafields.custom.productlist %}
+    {% for item in article.metafields.custom.productlist %}
       
-    {{   product}}
+    {{item}}
       {% else %}
       /-/
     {% endfor %}
