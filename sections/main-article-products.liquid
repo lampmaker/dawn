@@ -74,7 +74,8 @@
 {%- if currentitem.featured_media -%}
   <div class="card__inner ">
           <div class="card__media">            
-              <img
+   <a href="{{ currentitem.url }}" class="full-unstyled-link">           
+  <img
                 srcset="{%- if currentitem.featured_media.width >= 165 -%}{{ currentitem.featured_media | image_url: width: 165 }} 165w,{%- endif -%}
                   {%- if currentitem.featured_media.width >= 360 -%}{{ currentitem.featured_media | image_url: width: 360 }} 360w,{%- endif -%}
                   {%- if currentitem.featured_media.width >= 533 -%}{{ currentitem.featured_media | image_url: width: 533 }} 533w,{%- endif -%}
@@ -89,7 +90,7 @@
                 {% unless lazy_load == false %}loading="lazy"{% endunless %}
                 width="{{ currentitem.featured_media.width }}"
                 height="{{ currentitem.featured_media.height }}"
-              >                        
+              >              </a>          
           </div>
         </div>
         {%- endif -%}
