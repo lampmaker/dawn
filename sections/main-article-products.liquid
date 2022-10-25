@@ -75,7 +75,7 @@
 {%- if currentitem.featured_media -%}
   <div class="card__inner ">
           <div class="card__media">
-            <div class="media media--transparent media--hover-effect">              
+            
               <img
                 srcset="{%- if currentitem.featured_media.width >= 165 -%}{{ currentitem.featured_media | image_url: width: 165 }} 165w,{%- endif -%}
                   {%- if currentitem.featured_media.width >= 360 -%}{{ currentitem.featured_media | image_url: width: 360 }} 360w,{%- endif -%}
@@ -91,10 +91,8 @@
                 {% unless lazy_load == false %}loading="lazy"{% endunless %}
                 width="{{ currentitem.featured_media.width }}"
                 height="{{ currentitem.featured_media.height }}"
-              >
-              
-             
-            </div>
+              >            
+            
           </div>
   </div>
         {%- endif -%}
