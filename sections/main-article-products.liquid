@@ -46,10 +46,9 @@
           </header>
 
 
-{{ article.metafields.custom.productlist }}
     {% for product in article.metafields.custom.productlist %}
-      *
-    {{   product.title }}
+      
+    {{   product}}
     {% endfor %}
 
 
