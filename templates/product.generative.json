@@ -11,6 +11,12 @@
             "text_style": "uppercase"
           }
         },
+        "1d74e14d-a73d-4dbc-820e-2211a0e7986f": {
+          "type": "custom_liquid",
+          "settings": {
+            "custom_liquid": "{{product.custom.javascript}}"
+          }
+        },
         "title": {
           "type": "title",
           "settings": {
@@ -124,6 +130,7 @@
       },
       "block_order": [
         "vendor",
+        "1d74e14d-a73d-4dbc-820e-2211a0e7986f",
         "title",
         "caption",
         "0eeea5f4-2f35-459c-b2b4-fbb4107e84d9",
