@@ -198,6 +198,11 @@
 
         {%- for block in section.blocks -%}
           {%- case block.type -%}
+            {%- when 'custom_field' -%}
+               <p class="line-item-property__field">
+                <label for="{{ block.settings.customfield_fieldname }}">{{ block.settings.customfield_description }}</label>
+                <input id="{{ block.settings.customfield_fieldname }}" type="text" name="properties[{{ block.settings.customfield_fieldname }}]" form="product-form-{{ section.id }}">
+                </p>
           {%- when '@app' -%}
             {% render block %}
           {%- when 'text' -%}
