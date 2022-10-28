@@ -68,7 +68,7 @@
           "type": "custom_field",
           "settings": {
             "customfield_description": "test",
-            "customfield_fieldname": "testfield"
+            "customfield_fieldname": "Text op voorkant"
           }
         },
         "buy_buttons": {
