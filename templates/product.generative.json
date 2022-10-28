@@ -13,6 +13,7 @@
         },
         "1d74e14d-a73d-4dbc-820e-2211a0e7986f": {
           "type": "custom_liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{{product.metafields.custom.javascript}}"
           }
