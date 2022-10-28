@@ -61,12 +61,6 @@
           "settings": {
           }
         },
-        "116d9475-6610-4218-be4d-5902480f66fc": {
-          "type": "custom_liquid",
-          "settings": {
-            "custom_liquid": "test\n{{product.metafields.my_fields.javascript}}"
-          }
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -137,7 +131,6 @@
         "variant_picker",
         "558234c9-74a8-441c-81a9-284e0f2c0d92",
         "quantity_selector",
-        "116d9475-6610-4218-be4d-5902480f66fc",
         "buy_buttons",
         "description",
         "collapsible-row-0",
