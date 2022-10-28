@@ -126,6 +126,14 @@
           "settings": {
             "share_label": "Share"
           }
+        },
+        "1187230e-a03d-4baa-99bd-6ff901037372": {
+          "type": "script-button",
+          "settings": {
+            "onclick": "{alert(\"hoi\")}",
+            "description": "alert",
+            "secondary": true
+          }
         }
       },
       "block_order": [
@@ -144,7 +152,8 @@
         "collapsible-row-1",
         "collapsible-row-2",
         "collapsible-row-3",
-        "share"
+        "share",
+        "1187230e-a03d-4baa-99bd-6ff901037372"
       ],
       "settings": {
         "enable_sticky_info": true,
