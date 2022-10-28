@@ -64,6 +64,13 @@
           "settings": {
           }
         },
+        "23f6bc83-b9cc-4c82-ae45-c8502e604944": {
+          "type": "custom_field",
+          "settings": {
+            "customfield_description": "test",
+            "customfield_fieldname": "testfield"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -134,6 +141,7 @@
         "variant_picker",
         "558234c9-74a8-441c-81a9-284e0f2c0d92",
         "quantity_selector",
+        "23f6bc83-b9cc-4c82-ae45-c8502e604944",
         "buy_buttons",
         "description",
         "collapsible-row-0",

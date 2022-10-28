@@ -150,6 +150,14 @@
           "settings": {
           }
         },
+        "f3e5fdb6-4388-44c1-afd6-4cc7ddd1a914": {
+          "type": "custom_field",
+          "disabled": true,
+          "settings": {
+            "customfield_description": "Aangepaste tekst:",
+            "customfield_fieldname": "text1"
+          }
+        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -220,6 +228,7 @@
         "variant_picker",
         "558234c9-74a8-441c-81a9-284e0f2c0d92",
         "quantity_selector",
+        "f3e5fdb6-4388-44c1-afd6-4cc7ddd1a914",
         "buy_buttons",
         "description",
         "collapsible-row-0",
