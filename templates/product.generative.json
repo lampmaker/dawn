@@ -130,7 +130,7 @@
         "1187230e-a03d-4baa-99bd-6ff901037372": {
           "type": "script-button",
           "settings": {
-            "onclick": "{alert(\"hoi\")}",
+            "onclick": "{alert('hoi')}",
             "description": "alert",
             "secondary": true
           }
