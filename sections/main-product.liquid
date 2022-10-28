@@ -425,6 +425,11 @@
                 </div>
               </div>
             </noscript>
+            {%- when 'script-button' %}
+              <button onclick="{{ block.settings.onclick }}"  class="product-form__submit button button--full-width {% if block.settings.secondary %}button--secondary{% else %}button--primary{% endif %}">
+              <span> {{ block.settings.description }} </span>
+            </button>
+            
           {%- when 'buy_buttons' -%}
             <div {{ block.shopify_attributes }}>
               <product-form class="product-form">
