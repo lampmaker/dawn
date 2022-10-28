@@ -66,6 +66,7 @@
         },
         "23f6bc83-b9cc-4c82-ae45-c8502e604944": {
           "type": "custom_field",
+          "disabled": true,
           "settings": {
             "customfield_description": "test",
             "customfield_fieldname": "Text op voorkant"
