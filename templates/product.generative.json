@@ -5,10 +5,9 @@
       "blocks": {
         "vendor": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "{{ product.vendor }}",
-            "text_style": "uppercase"
+            "text": "GENERATIVE ART",
+            "text_style": "subtitle"
           }
         },
         "1d74e14d-a73d-4dbc-820e-2211a0e7986f": {
