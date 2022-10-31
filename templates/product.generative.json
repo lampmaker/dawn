@@ -27,7 +27,7 @@
           "type": "script-button",
           "settings": {
             "onclick": "{ randseed(); start() }",
-            "description": "Try different one",
+            "description": "Probeer een andere",
             "secondary": true
           }
         },
