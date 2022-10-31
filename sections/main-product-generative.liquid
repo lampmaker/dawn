@@ -37,8 +37,9 @@
        <script>
            var productImages=[];         
            {%- for media in product.media -%}
-             productImages.push("{{ media }}");
-           {%- endfor -%}           
+             productImages.push("{{ media | image_url: width: 1024}}");
+           {%- endfor -%}          
+         console.log(productImages)
        </script>
       {{ product.metafields.custom.javascript }}
     </div>
