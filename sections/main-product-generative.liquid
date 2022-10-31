@@ -35,12 +35,18 @@
     <div class="grid__item product__media-wrapper">
       <canvas id="myCanvas" style="width:100vmin;"></canvas>
      
+       <script>
+           var productImages=[]
+           {%- for media in product.media -%}
+             productImages.push(" {{ media }}")
+           {%- endfor -%}
+           console.log(productImages)
+       </script>
+       
          
-       TEST{{product.selected_or_first_available_variant.featured_media.preview_image }}
-         
-     {%- for media in product.media -%}
-       {{ media }}
-    {%- endfor -%}
+
+       
+    
 
 
        
