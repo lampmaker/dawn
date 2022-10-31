@@ -38,7 +38,9 @@
          
        TEST{{product.selected_or_first_available_variant.featured_media.preview_image }}
          
-
+     {%- for media in product.media -%}
+       {{ media }}
+    {%- endfor -%}
 
 
        
