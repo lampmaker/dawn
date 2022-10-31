@@ -26,8 +26,8 @@
         "1187230e-a03d-4baa-99bd-6ff901037372": {
           "type": "script-button",
           "settings": {
-            "onclick": "{ctx.fillStyle = '#00FF00';ctx.fillRect(0, 0, 150, 75);}",
-            "description": "Run code",
+            "onclick": "{start()}",
+            "description": "Next",
             "secondary": true
           }
         },
