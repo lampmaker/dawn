@@ -64,9 +64,8 @@
         },
         "558234c9-74a8-441c-81a9-284e0f2c0d92": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "Geschikt voor {{ product.metafields.my_fields.leeftijd.value }} jaar en ouder.",
+            "text": "Don't order yet... This is a test! ⚠",
             "text_style": "body"
           }
         },
