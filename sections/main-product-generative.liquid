@@ -37,7 +37,7 @@
        <script>
            var productImages=[];         
            {%- for media in product.media -%}
-             productImages.push(" {{ media }}");
+             productImages.push("{{ media }}");
            {%- endfor -%}           
        </script>
       {{ product.metafields.custom.javascript }}
