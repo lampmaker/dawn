@@ -35,7 +35,7 @@
     <div class="grid__item product__media-wrapper">
       <canvas id="myCanvas" style="width:100vmin;"></canvas>
      <script>
-         var imageurl="{{ product.selected_or_first_available_variant.featured_media | image_url: width: 2000  }}"
+         var imageurl="{{ product.selected_or_first_available_variant.featured_media  }}"
          console.log(imageurl)
      </script>
       {{ product.metafields.custom.javascript }}
