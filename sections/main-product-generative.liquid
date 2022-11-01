@@ -35,9 +35,10 @@
     <div class="grid__item product__media-wrapper">
       <canvas id="myCanvas" style="width:100%;"></canvas>
       <input id="seedValue" type="hidden" name="properties[Design Code]" form="product-form-{{ section.id }}">
+      <input id="finalImage" type="hidden" name="properties[finalImage]" form="product-form-{{ section.id }}">
        <script>
           var Q={seed:Math.random()*999999|0}
-          document.getElementById("seedValue").value = Q;
+          document.getElementById("seedValue").value = Q.seed;
            var productImages=[];         
            {%- for media in product.media -%}
              productImages.push("{{ media | image_url: width: 1024}}");
