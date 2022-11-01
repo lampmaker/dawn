@@ -42,8 +42,7 @@
            var productImages=[];         
            {%- for media in product.media -%}
              productImages.push("{{ media | image_url: width: 1024}}");
-           {%- endfor -%}          
-         console.log(productImages)
+           {%- endfor -%}                   
        </script>
       {{ product.metafields.custom.javascript }}
     </div>
