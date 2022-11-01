@@ -6,7 +6,7 @@
         "vendor": {
           "type": "text",
           "settings": {
-            "text": "GENERATIVE ART",
+            "text": "GENERATIEVE KUNST",
             "text_style": "subtitle"
           }
         },
@@ -22,6 +22,18 @@
           "settings": {
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "caption": {
+          "type": "text",
+          "settings": {
+            "text": "Deze puzzel wordt ontworpen terwijl je er naar kijkt. Bevalt het ontwerp je niet? Probeer dan een andere.",
+            "text_style": "body"
+          }
+        },
         "1187230e-a03d-4baa-99bd-6ff901037372": {
           "type": "script-button",
           "settings": {
@@ -30,12 +42,11 @@
             "secondary": true
           }
         },
-        "caption": {
+        "e3a2bf28-23d9-4fea-bd7c-dd0f484235c7": {
           "type": "text",
-          "disabled": true,
           "settings": {
-            "text": "{{ product.metafields.descriptors.subtitle.value }}",
-            "text_style": "subtitle"
+            "text": "Tevreden met dit ontwerp? Voeg het toe aan je winkelwagen. Er wordt een unieke code gegenereerd waarmee we jouw ontwerp gaan produceren.",
+            "text_style": "body"
           }
         },
         "0eeea5f4-2f35-459c-b2b4-fbb4107e84d9": {
@@ -49,11 +60,6 @@
             "stars_text_empty": "No reviews"
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "variant_picker": {
           "type": "variant_picker",
           "disabled": true,
@@ -63,6 +69,7 @@
         },
         "558234c9-74a8-441c-81a9-284e0f2c0d92": {
           "type": "text",
+          "disabled": true,
           "settings": {
             "text": "Don't order yet... This is a test! ⚠",
             "text_style": "body"
@@ -138,10 +145,11 @@
         "vendor",
         "1d74e14d-a73d-4dbc-820e-2211a0e7986f",
         "title",
-        "1187230e-a03d-4baa-99bd-6ff901037372",
-        "caption",
-        "0eeea5f4-2f35-459c-b2b4-fbb4107e84d9",
         "price",
+        "caption",
+        "1187230e-a03d-4baa-99bd-6ff901037372",
+        "e3a2bf28-23d9-4fea-bd7c-dd0f484235c7",
+        "0eeea5f4-2f35-459c-b2b4-fbb4107e84d9",
         "variant_picker",
         "558234c9-74a8-441c-81a9-284e0f2c0d92",
         "quantity_selector",
