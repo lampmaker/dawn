@@ -38,7 +38,7 @@
           "type": "script-button",
           "settings": {
             "onclick": "{ randseed(); start() }",
-            "description": "Probeer een andere",
+            "description": "Probeer een ander ontwerp",
             "secondary": true
           }
         },
@@ -71,7 +71,7 @@
           "type": "text",
           "disabled": true,
           "settings": {
-            "text": "Don't order yet... This is a test! ⚠",
+            "text": "",
             "text_style": "body"
           }
         },
