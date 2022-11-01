@@ -38,7 +38,7 @@
       <input id="finalImage" type="hidden" name="properties[finalImage]" form="product-form-{{ section.id }}">
       <input id="finalURL" type="hidden" name="properties[finalImage]" form="product-form-{{ section.id }}">
        <script>
-          var Q={seed:Math.random()*899999|0+100000}
+            var Q={seed:Math.random()*899999|0+100000,url:{{product.ur}}}
           document.getElementById("seedValue").value = Q.seed;
            var productImages=[];         
            {%- for media in product.media -%}
