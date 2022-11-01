@@ -38,8 +38,9 @@
       <input id="finalImage" type="hidden" name="properties[_image]" form="product-form-{{ section.id }}">      
        <script>
             var Q={seed:Math.random()*899999|0+100000,url:"{{product.url}}"}
-          document.getElementById("seedValue").value = Q.seed;
-           var productImages=[];         
+            var checkouttext="    {{ 'products.product.add_to_cart' | t }}"
+            document.getElementById("seedValue").value = Q.seed;
+            var productImages=[];         
            {%- for media in product.media -%}
              productImages.push("{{ media | image_url: width: 1024}}");
            {%- endfor -%}                   
