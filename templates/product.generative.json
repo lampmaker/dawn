@@ -67,14 +67,6 @@
             "picker_type": "button"
           }
         },
-        "558234c9-74a8-441c-81a9-284e0f2c0d92": {
-          "type": "text",
-          "disabled": true,
-          "settings": {
-            "text": "",
-            "text_style": "body"
-          }
-        },
         "quantity_selector": {
           "type": "quantity_selector",
           "disabled": true,
@@ -86,6 +78,13 @@
           "settings": {
             "show_dynamic_checkout": false,
             "show_store_pickup": false
+          }
+        },
+        "558234c9-74a8-441c-81a9-284e0f2c0d92": {
+          "type": "text",
+          "settings": {
+            "text": "Het kan zijn dat je een andere afbeelding ziet in je winkelwagen of in je bestelbevestiging. Geen zorgen ! de unieke code op je bestelling zorgt ervoor dat het door jou gekozen ontwerp gemaakt wordt.",
+            "text_style": "uppercase"
           }
         },
         "description": {
@@ -151,9 +150,9 @@
         "e3a2bf28-23d9-4fea-bd7c-dd0f484235c7",
         "0eeea5f4-2f35-459c-b2b4-fbb4107e84d9",
         "variant_picker",
-        "558234c9-74a8-441c-81a9-284e0f2c0d92",
         "quantity_selector",
         "buy_buttons",
+        "558234c9-74a8-441c-81a9-284e0f2c0d92",
         "description",
         "collapsible-row-0",
         "collapsible-row-1",
