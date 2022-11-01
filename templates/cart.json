@@ -1,7 +1,7 @@
 {
   "sections": {
     "cart-items": {
-      "type": "main-cart-items_2",
+      "type": "main-cart-items",
       "settings": {
         "show_vendor": false,
         "padding_top": 36,
