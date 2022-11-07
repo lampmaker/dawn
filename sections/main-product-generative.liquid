@@ -460,7 +460,8 @@
 
       document.querySelector('#Variants-{{ section.id }}').addEventListener('change', function(event) {
         hiddenInput.value = event.currentTarget.value;
-        variantSwitch(event.currentTarget.value);
+      //  variantSwitch(event.currentTarget.value);
+        console.log("switch"+event.currentTarget.value)
       });
     });
   </script>
