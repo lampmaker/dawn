@@ -41,7 +41,7 @@
             var checkouttext="    {{ 'products.product.add_to_cart' | t }}"
             document.getElementById("seedValue").value = Q.seed;
             var productImages=[];         
-            var variantSwitch =(x,y)=>{console.log(x,y)};
+            var variantSwitch =(x,y)=>{};
            {%- for media in product.media -%}
              productImages.push("{{ media | image_url: width: 1024}}");
            {%- endfor -%}                   
