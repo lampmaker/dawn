@@ -34,6 +34,12 @@
             "text_style": "body"
           }
         },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "picker_type": "button"
+          }
+        },
         "1187230e-a03d-4baa-99bd-6ff901037372": {
           "type": "script-button",
           "settings": {
@@ -58,13 +64,6 @@
             "text_align": "center",
             "product": "{{product}}",
             "stars_text_empty": "No reviews"
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "disabled": true,
-          "settings": {
-            "picker_type": "button"
           }
         },
         "quantity_selector": {
@@ -146,10 +145,10 @@
         "title",
         "price",
         "caption",
+        "variant_picker",
         "1187230e-a03d-4baa-99bd-6ff901037372",
         "e3a2bf28-23d9-4fea-bd7c-dd0f484235c7",
         "0eeea5f4-2f35-459c-b2b4-fbb4107e84d9",
-        "variant_picker",
         "quantity_selector",
         "buy_buttons",
         "558234c9-74a8-441c-81a9-284e0f2c0d92",
