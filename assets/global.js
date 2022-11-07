@@ -766,6 +766,8 @@ class VariantSelects extends HTMLElement {
       this.renderProductInfo();
       this.updateShareUrl();
     }
+
+    if (this.hasAttribute("callback"))this.getAttribute("callback")(this.currentVariant,this.variantData)
   }
 
   updateOptions() {
