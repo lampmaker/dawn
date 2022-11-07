@@ -36,12 +36,12 @@
       <canvas id="myCanvas" style="width:100%;"></canvas>
       <input id="seedValue" type="hidden" name="properties[Design Code]" form="product-form-{{ section.id }}">
       <input id="finalImage" type="hidden" name="properties[_image]" form="product-form-{{ section.id }}">      
-       <script>
+       <script>         
             var Q={seed:Math.random()*899999|0+100000,url:"{{product.url}}"}
             var checkouttext="    {{ 'products.product.add_to_cart' | t }}"
             document.getElementById("seedValue").value = Q.seed;
             var productImages=[];         
-            var variantSwitch =x=>{console.log(x)};
+            var variantSwitch =(x,y)=>{console.log(x,y)};
            {%- for media in product.media -%}
              productImages.push("{{ media | image_url: width: 1024}}");
            {%- endfor -%}                   
@@ -191,7 +191,7 @@
           {%- when 'variant_picker' -%}
             {%- unless product.has_only_default_variant -%}
               {%- if block.settings.picker_type == 'button' -%}
-                <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }}>
+                <variant-radios class="no-js-hidden" data-section="{{ section.id }}" data-url="{{ product.url }}" {{ block.shopify_attributes }} callback="variantSwitch">
                   {%- for option in product.options_with_values -%}
                       <fieldset class="js product-form__input">
                         <legend class="form__label">{{ option.name }}</legend>
