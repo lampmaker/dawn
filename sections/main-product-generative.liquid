@@ -451,10 +451,10 @@
         return (msie > 0 || trident > 0);
       }
       document.querySelector('#Variants-{{ section.id }}').addEventListener('change', function(event) {        
-        console.log("switch"+event.currentTarget.value)
+        
       });
       
-      if (!isIE()) return;
+      
       const hiddenInput = document.querySelector('#{{ product_form_id }} input[name="id"]');
       const noScriptInputWrapper = document.createElement('div');
       const variantSwitcher = document.querySelector('variant-radios[data-section="{{ section.id }}"]') || document.querySelector('variant-selects[data-section="{{ section.id }}"]');
@@ -462,7 +462,8 @@
       variantSwitcher.outerHTML = noScriptInputWrapper.outerHTML;
 
       document.querySelector('#Variants-{{ section.id }}').addEventListener('change', function(event) {
-        hiddenInput.value = event.currentTarget.value;              
+       if(isIE())  hiddenInput.value = event.currentTarget.value;              
+        console.log("switch"+event.currentTarget.value)
       });
     });
   </script>
