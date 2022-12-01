@@ -70,7 +70,7 @@
  {% comment %}
        //==========================================================================================================  RENDER PRODUCT
   {% endcomment %}
-
+  {%- unless forloop.last %}
 {%- if currentitem.featured_media -%}
   <div class="card__inner ">
           <div class="card__media">            
@@ -109,7 +109,7 @@
             {% render 'price', product: currentitem, price_class: '' %}
           </div>
         </div>
-
+  {%- endunless %}
 {% comment %}
        //==========================================================================================================  RENDER PRODUCT
   {% endcomment %}
