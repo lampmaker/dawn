@@ -14,7 +14,7 @@
       "type": "main-collection-product-grid-b2b",
       "settings": {
         "products_per_page": 24,
-        "columns_desktop": 4,
+        "columns_desktop": 1,
         "image_ratio": "adapt",
         "show_secondary_image": true,
         "show_vendor": false,
